@@ -1,0 +1,1882 @@
+2017-10-29 14:41:58,555Starting WxSellApplication on AFAAW-705012348 with PID 10512 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 14:41:58,562No active profile set, falling back to default profiles: default
+2017-10-29 14:41:58,754Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 14:41:58 CST 2017]; root of context hierarchy
+2017-10-29 14:41:59,965HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 14:42:02,247JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 14:42:05,206Tomcat initialized with port(s): 8080 (http)
+2017-10-29 14:42:05,278Starting service [Tomcat]
+2017-10-29 14:42:05,283Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 14:42:07,485Initializing Spring embedded WebApplicationContext
+2017-10-29 14:42:07,486Root WebApplicationContext: initialization completed in 8732 ms
+2017-10-29 14:42:08,203Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 14:42:08,217Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 14:42:08,219Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 14:42:08,219Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 14:42:08,220Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 14:42:10,762Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 14:42:10,814HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 14:42:10,943HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 14:42:10,947HHH000206: hibernate.properties not found
+2017-10-29 14:42:10,950HHH000021: Bytecode provider name : javassist
+2017-10-29 14:42:11,245HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 14:42:11,494HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 14:42:12,412Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 14:42:15,957Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 14:41:58 CST 2017]; root of context hierarchy
+2017-10-29 14:42:16,516Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 14:42:16,519Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 14:42:16,519Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 14:42:16,520Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 14:42:16,521Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 14:42:16,522Mapped "{[/pay/create],methods=[GET]}" onto public void com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String)
+2017-10-29 14:42:16,528Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 14:42:16,532Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 14:42:16,551Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 14:42:16,559Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 14:42:16,559Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 14:42:16,722Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 14:42:16,723Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 14:42:17,090Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 14:42:18,522Registering beans for JMX exposure on startup
+2017-10-29 14:42:18,592Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 14:42:18,659Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 14:42:18,697Using a shared selector for servlet write/read
+2017-10-29 14:42:18,766Tomcat started on port(s): 8080 (http)
+2017-10-29 14:42:18,772Started WxSellApplication in 22.362 seconds (JVM running for 34.89)
+2017-10-29 14:42:28,832Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 14:42:28,833FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 14:42:29,066FrameworkServlet 'dispatcherServlet': initialization completed in 233 ms
+2017-10-29 14:42:29,474HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 15:24:34,182Starting WxSellApplication on AFAAW-705012348 with PID 3736 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 15:24:34,185No active profile set, falling back to default profiles: default
+2017-10-29 15:24:34,306Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:24:34 CST 2017]; root of context hierarchy
+2017-10-29 15:24:35,191HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 15:24:36,685JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 15:24:37,955Tomcat initialized with port(s): 8080 (http)
+2017-10-29 15:24:37,990Starting service [Tomcat]
+2017-10-29 15:24:37,992Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 15:24:38,329Initializing Spring embedded WebApplicationContext
+2017-10-29 15:24:38,329Root WebApplicationContext: initialization completed in 4023 ms
+2017-10-29 15:24:38,755Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 15:24:38,760Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 15:24:38,762Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 15:24:38,763Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 15:24:38,763Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 15:24:39,607Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:24:39,628HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 15:24:39,717HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 15:24:39,719HHH000206: hibernate.properties not found
+2017-10-29 15:24:39,722HHH000021: Bytecode provider name : javassist
+2017-10-29 15:24:39,931HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 15:24:40,110HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 15:24:40,755Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:24:42,316Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:24:34 CST 2017]; root of context hierarchy
+2017-10-29 15:24:42,455Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 15:24:42,458Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 15:24:42,459Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 15:24:42,460Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 15:24:42,462Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 15:24:42,463Mapped "{[/pay],methods=[GET]}" onto public void com.xiao.wx_order.controller.PayController.index(java.lang.String)
+2017-10-29 15:24:42,466Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 15:24:42,471Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 15:24:42,474Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 15:24:42,478Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 15:24:42,479Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 15:24:42,523Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:24:42,524Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:24:42,583Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:24:43,010Registering beans for JMX exposure on startup
+2017-10-29 15:24:43,039Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:24:43,058Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:24:43,080Using a shared selector for servlet write/read
+2017-10-29 15:24:43,118Tomcat started on port(s): 8080 (http)
+2017-10-29 15:24:43,125Started WxSellApplication in 10.975 seconds (JVM running for 13.046)
+2017-10-29 15:25:20,656Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 15:25:20,657FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 15:25:20,808FrameworkServlet 'dispatcherServlet': initialization completed in 150 ms
+2017-10-29 15:25:21,007openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:28:03,828Starting WxSellApplication on AFAAW-705012348 with PID 364 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 15:28:03,887No active profile set, falling back to default profiles: default
+2017-10-29 15:28:04,214Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:28:04 CST 2017]; root of context hierarchy
+2017-10-29 15:28:05,906HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 15:28:08,050JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 15:28:09,385Tomcat initialized with port(s): 8080 (http)
+2017-10-29 15:28:09,407Starting service [Tomcat]
+2017-10-29 15:28:09,408Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 15:28:09,637Initializing Spring embedded WebApplicationContext
+2017-10-29 15:28:09,638Root WebApplicationContext: initialization completed in 5424 ms
+2017-10-29 15:28:09,937Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 15:28:09,945Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 15:28:09,946Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 15:28:09,946Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 15:28:09,946Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 15:28:10,907Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:28:10,936HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 15:28:11,055HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 15:28:11,057HHH000206: hibernate.properties not found
+2017-10-29 15:28:11,059HHH000021: Bytecode provider name : javassist
+2017-10-29 15:28:11,289HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 15:28:11,488HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 15:28:12,472Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:28:14,109Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:28:04 CST 2017]; root of context hierarchy
+2017-10-29 15:28:14,350Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 15:28:14,353Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 15:28:14,353Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 15:28:14,354Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 15:28:14,356Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 15:28:14,357Mapped "{[/pay],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.PayController.index(java.lang.String)
+2017-10-29 15:28:14,359Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 15:28:14,361Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 15:28:14,362Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 15:28:14,365Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 15:28:14,371Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 15:28:14,417Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:28:14,417Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:28:14,483Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:28:14,944Registering beans for JMX exposure on startup
+2017-10-29 15:28:14,971Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:28:14,999Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:28:15,035Using a shared selector for servlet write/read
+2017-10-29 15:28:15,067Tomcat started on port(s): 8080 (http)
+2017-10-29 15:28:15,076Started WxSellApplication in 12.998 seconds (JVM running for 14.901)
+2017-10-29 15:28:21,673Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 15:28:21,675FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 15:28:21,797FrameworkServlet 'dispatcherServlet': initialization completed in 121 ms
+2017-10-29 15:28:21,947openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:29:41,027openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:41:35,351Starting WxSellApplication on AFAAW-705012348 with PID 6172 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 15:41:35,356No active profile set, falling back to default profiles: default
+2017-10-29 15:41:35,535Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:41:35 CST 2017]; root of context hierarchy
+2017-10-29 15:41:36,797HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 15:41:39,003JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 15:41:40,225Tomcat initialized with port(s): 8080 (http)
+2017-10-29 15:41:40,264Starting service [Tomcat]
+2017-10-29 15:41:40,266Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 15:41:40,474Initializing Spring embedded WebApplicationContext
+2017-10-29 15:41:40,474Root WebApplicationContext: initialization completed in 4939 ms
+2017-10-29 15:41:40,781Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 15:41:40,788Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 15:41:40,789Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 15:41:40,789Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 15:41:40,790Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 15:41:41,849Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:41:41,880HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 15:41:41,976HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 15:41:41,981HHH000206: hibernate.properties not found
+2017-10-29 15:41:41,983HHH000021: Bytecode provider name : javassist
+2017-10-29 15:41:42,188HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 15:41:42,351HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 15:41:42,990Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:41:44,740Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:41:35 CST 2017]; root of context hierarchy
+2017-10-29 15:41:44,908Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 15:41:44,911Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 15:41:44,911Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 15:41:44,912Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 15:41:44,918Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 15:41:44,919Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 15:41:44,923Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 15:41:44,924Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 15:41:44,924Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 15:41:44,927Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 15:41:44,927Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 15:41:44,970Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:41:44,970Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:41:45,040Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:41:45,426Registering beans for JMX exposure on startup
+2017-10-29 15:41:45,456Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:41:45,473Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:41:45,492Using a shared selector for servlet write/read
+2017-10-29 15:41:45,523Tomcat started on port(s): 8080 (http)
+2017-10-29 15:41:45,529Started WxSellApplication in 11.673 seconds (JVM running for 13.433)
+2017-10-29 15:42:56,223Starting WxSellApplication on AFAAW-705012348 with PID 12880 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 15:42:56,231No active profile set, falling back to default profiles: default
+2017-10-29 15:42:56,435Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:42:56 CST 2017]; root of context hierarchy
+2017-10-29 15:42:57,292HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 15:42:58,944JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 15:43:00,682Tomcat initialized with port(s): 8080 (http)
+2017-10-29 15:43:00,706Starting service [Tomcat]
+2017-10-29 15:43:00,708Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 15:43:00,948Initializing Spring embedded WebApplicationContext
+2017-10-29 15:43:00,949Root WebApplicationContext: initialization completed in 4513 ms
+2017-10-29 15:43:01,258Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 15:43:01,265Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 15:43:01,266Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 15:43:01,266Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 15:43:01,266Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 15:43:02,500Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:43:02,522HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 15:43:02,616HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 15:43:02,618HHH000206: hibernate.properties not found
+2017-10-29 15:43:02,619HHH000021: Bytecode provider name : javassist
+2017-10-29 15:43:02,782HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 15:43:02,924HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 15:43:03,582Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 15:43:05,459Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 15:42:56 CST 2017]; root of context hierarchy
+2017-10-29 15:43:05,767Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 15:43:05,768Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 15:43:05,769Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 15:43:05,769Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 15:43:05,770Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 15:43:05,772Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 15:43:05,775Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 15:43:05,776Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 15:43:05,779Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 15:43:05,785Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 15:43:05,786Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 15:43:05,879Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:43:05,880Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:43:05,995Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 15:43:06,880Registering beans for JMX exposure on startup
+2017-10-29 15:43:06,985Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:43:07,074Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 15:43:07,104Using a shared selector for servlet write/read
+2017-10-29 15:43:07,175Tomcat started on port(s): 8080 (http)
+2017-10-29 15:43:07,188Started WxSellApplication in 12.097 seconds (JVM running for 13.913)
+2017-10-29 15:43:36,887Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 15:43:36,887FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 15:43:36,999FrameworkServlet 'dispatcherServlet': initialization completed in 112 ms
+2017-10-29 15:43:37,142openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:43:37,547HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 15:43:38,186【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 15:43:51,061【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509263031",
+  "nonceStr": "4EFtIHffsXazWZmg",
+  "packAge": "prepay_id\u003dwx2017102915434959e52e61cb0036852929",
+  "signType": "MD5",
+  "paySign": "B1E7AD0348251D28C26C233DBCA4CFD1"
+}
+2017-10-29 15:45:51,764openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:45:51,845【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 15:45:53,249【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509263153",
+  "nonceStr": "DPirYH6yRJiffVYe",
+  "packAge": "prepay_id\u003dwx201710291545523c7a7daed20253661757",
+  "signType": "MD5",
+  "paySign": "79FF51C35D0ED1DC37E5DC38635FA479"
+}
+2017-10-29 15:47:56,645openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:47:56,700【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 15:47:57,090【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509263277",
+  "nonceStr": "uPwFVIjaOaeVTlB3",
+  "packAge": "prepay_id\u003dwx20171029154755eb2d5942340556635579",
+  "signType": "MD5",
+  "paySign": "44DEB15B68C03C987DDB4E8D51C9E400"
+}
+2017-10-29 15:50:57,674openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:50:57,711【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 15:50:58,296【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509263458",
+  "nonceStr": "9WnmYX261zl0yEYi",
+  "packAge": "prepay_id\u003dwx20171029155057bb3162e0850105358464",
+  "signType": "MD5",
+  "paySign": "3EC4EE323D6C593BF0569EEAC41B6173"
+}
+2017-10-29 15:56:14,469openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 15:56:14,504【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 15:56:14,867【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509263774",
+  "nonceStr": "Ovnr8m7JFdQxK36Z",
+  "packAge": "prepay_id\u003dwx20171029155613dfc419a8df0281291548",
+  "signType": "MD5",
+  "paySign": "F5E91FE08D4715185EB0E558D7EC7018"
+}
+2017-10-29 16:26:46,496openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:26:46,566【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:26:46,883【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509265606",
+  "nonceStr": "7ztkObRLeVXNuCj0",
+  "packAge": "prepay_id\u003dwx2017102916264550fed57e6a0600367400",
+  "signType": "MD5",
+  "paySign": "48EBED45B1528F7A95E7F34669534F76"
+}
+2017-10-29 16:28:59,173openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:28:59,203【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:28:59,553【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509265739",
+  "nonceStr": "vQi4sipAsL6GI9F1",
+  "packAge": "prepay_id\u003dwx201710291628586679abe6c80563585956",
+  "signType": "MD5",
+  "paySign": "F655A405EE6F2B630DFDCDC22564CCDF"
+}
+2017-10-29 16:30:59,708openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:30:59,764【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:31:00,104【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509265860",
+  "nonceStr": "Wd6MyclcoO8ajajb",
+  "packAge": "prepay_id\u003dwx20171029163058a7a714e6cd0315046784",
+  "signType": "MD5",
+  "paySign": "7459ED92AEBAFB80883F33170C4AB867"
+}
+2017-10-29 16:33:03,069openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:33:03,113【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:33:03,441【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509265983",
+  "nonceStr": "hhHUiRX6uNIi7hSb",
+  "packAge": "prepay_id\u003dwx20171029163302a53afaf01a0590555448",
+  "signType": "MD5",
+  "paySign": "BE545E3BE2CF925241BEFD19B019446D"
+}
+2017-10-29 16:33:19,073openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:33:19,113【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:33:19,455【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509265999",
+  "nonceStr": "6Zc7M80VbZodf1dc",
+  "packAge": "prepay_id\u003dwx20171029163318e96b0c5f080287150503",
+  "signType": "MD5",
+  "paySign": "EF4F09DCD59F6DC295AE43898C5002B4"
+}
+2017-10-29 16:36:11,381Starting WxSellApplication on AFAAW-705012348 with PID 1672 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 16:36:11,388No active profile set, falling back to default profiles: default
+2017-10-29 16:36:11,549Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 16:36:11 CST 2017]; root of context hierarchy
+2017-10-29 16:36:12,575HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 16:36:14,334JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 16:36:15,527Tomcat initialized with port(s): 8080 (http)
+2017-10-29 16:36:15,554Starting service [Tomcat]
+2017-10-29 16:36:15,557Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 16:36:15,783Initializing Spring embedded WebApplicationContext
+2017-10-29 16:36:15,783Root WebApplicationContext: initialization completed in 4234 ms
+2017-10-29 16:36:16,068Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 16:36:16,082Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 16:36:16,083Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 16:36:16,083Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 16:36:16,083Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 16:36:16,964Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 16:36:16,988HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 16:36:17,103HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 16:36:17,105HHH000206: hibernate.properties not found
+2017-10-29 16:36:17,107HHH000021: Bytecode provider name : javassist
+2017-10-29 16:36:17,284HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 16:36:17,444HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 16:36:18,081Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 16:36:20,071Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 16:36:11 CST 2017]; root of context hierarchy
+2017-10-29 16:36:20,208Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 16:36:20,210Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 16:36:20,210Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 16:36:20,211Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 16:36:20,212Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 16:36:20,213Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 16:36:20,215Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 16:36:20,217Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 16:36:20,219Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 16:36:20,222Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 16:36:20,224Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 16:36:20,258Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 16:36:20,259Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 16:36:20,328Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 16:36:20,735Registering beans for JMX exposure on startup
+2017-10-29 16:36:20,783Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 16:36:20,853Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 16:36:20,883Using a shared selector for servlet write/read
+2017-10-29 16:36:20,928Tomcat started on port(s): 8080 (http)
+2017-10-29 16:36:20,951Started WxSellApplication in 10.62 seconds (JVM running for 11.908)
+2017-10-29 16:36:25,504Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 16:36:25,505FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 16:36:25,590FrameworkServlet 'dispatcherServlet': initialization completed in 85 ms
+2017-10-29 16:36:25,721openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:36:26,068HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 16:36:26,519【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:36:28,517【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509266188",
+  "nonceStr": "jBkbwPA2jo5Hltw6",
+  "packAge": "prepay_id\u003dwx20171029163626abb45c3c8d0191946386",
+  "signType": "MD5",
+  "paySign": "F40E73F16D464489A315B16AAB4675A5"
+}
+2017-10-29 16:37:20,773openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:37:20,842【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:37:21,190【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509266241",
+  "nonceStr": "872HN0yShPWhsi5B",
+  "packAge": "prepay_id\u003dwx2017102916371995f75870ea0832632342",
+  "signType": "MD5",
+  "paySign": "3F3BD2A19C74BCC73BEFD8746A36DF9F"
+}
+2017-10-29 16:38:02,111openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:38:02,182【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:38:02,550【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509266282",
+  "nonceStr": "iTDQjs6bwDeIiXye",
+  "packAge": "prepay_id\u003dwx20171029163801142eefdb110054439758",
+  "signType": "MD5",
+  "paySign": "59DC26ABB00A4344EEECEFCDE5702BD4"
+}
+2017-10-29 16:46:59,425openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 16:46:59,458【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 16:46:59,889【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509266819",
+  "nonceStr": "SmCAYHh8wosH4GvU",
+  "packAge": "prepay_id\u003dwx20171029164658707509a0220552193173",
+  "signType": "MD5",
+  "paySign": "E3566D18209F7D270AB0D893F6B5506C"
+}
+2017-10-29 19:54:04,682Starting WxSellApplication on AFAAW-705012348 with PID 11008 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 19:54:04,687No active profile set, falling back to default profiles: default
+2017-10-29 19:54:04,871Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 19:54:04 CST 2017]; root of context hierarchy
+2017-10-29 19:54:05,963HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 19:54:07,955JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 19:54:09,059Tomcat initialized with port(s): 8080 (http)
+2017-10-29 19:54:09,083Starting service [Tomcat]
+2017-10-29 19:54:09,085Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 19:54:09,266Initializing Spring embedded WebApplicationContext
+2017-10-29 19:54:09,267Root WebApplicationContext: initialization completed in 4396 ms
+2017-10-29 19:54:09,593Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 19:54:09,604Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 19:54:09,605Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 19:54:09,605Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 19:54:09,605Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 19:54:10,363Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 19:54:10,389HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 19:54:10,477HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 19:54:10,480HHH000206: hibernate.properties not found
+2017-10-29 19:54:10,482HHH000021: Bytecode provider name : javassist
+2017-10-29 19:54:10,643HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 19:54:10,785HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 19:54:11,344Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 19:54:12,822Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 19:54:04 CST 2017]; root of context hierarchy
+2017-10-29 19:54:12,936Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 19:54:12,940Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 19:54:12,941Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 19:54:12,941Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 19:54:12,942Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 19:54:12,944Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 19:54:12,944Mapped "{[/test],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.test()
+2017-10-29 19:54:12,946Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 19:54:12,947Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 19:54:12,947Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 19:54:12,951Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 19:54:12,951Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 19:54:12,996Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 19:54:12,997Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 19:54:13,059Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 19:54:13,424Registering beans for JMX exposure on startup
+2017-10-29 19:54:13,449Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 19:54:13,473Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 19:54:13,496Using a shared selector for servlet write/read
+2017-10-29 19:54:13,530Tomcat started on port(s): 8080 (http)
+2017-10-29 19:54:13,537Started WxSellApplication in 10.265 seconds (JVM running for 11.804)
+2017-10-29 19:57:48,470Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 19:57:48,470FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 19:57:48,575FrameworkServlet 'dispatcherServlet': initialization completed in 105 ms
+2017-10-29 19:58:41,524Starting WxSellApplication on AFAAW-705012348 with PID 13908 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 19:58:41,535No active profile set, falling back to default profiles: default
+2017-10-29 19:58:41,745Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 19:58:41 CST 2017]; root of context hierarchy
+2017-10-29 19:58:42,981HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 19:58:44,514JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 19:58:45,805Tomcat initialized with port(s): 8080 (http)
+2017-10-29 19:58:45,835Starting service [Tomcat]
+2017-10-29 19:58:45,837Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 19:58:46,061Initializing Spring embedded WebApplicationContext
+2017-10-29 19:58:46,061Root WebApplicationContext: initialization completed in 4316 ms
+2017-10-29 19:58:46,309Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 19:58:46,315Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 19:58:46,316Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 19:58:46,316Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 19:58:46,316Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 19:58:47,242Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 19:58:47,264HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 19:58:47,361HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 19:58:47,363HHH000206: hibernate.properties not found
+2017-10-29 19:58:47,365HHH000021: Bytecode provider name : javassist
+2017-10-29 19:58:47,527HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 19:58:47,669HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 19:58:48,303Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 19:58:49,996Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 19:58:41 CST 2017]; root of context hierarchy
+2017-10-29 19:58:50,122Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 19:58:50,130Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 19:58:50,131Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 19:58:50,131Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 19:58:50,133Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 19:58:50,136Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 19:58:50,136Mapped "{[/test],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.test()
+2017-10-29 19:58:50,142Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 19:58:50,144Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 19:58:50,146Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 19:58:50,151Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 19:58:50,155Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 19:58:50,229Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 19:58:50,229Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 19:58:50,337Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 19:58:50,839Registering beans for JMX exposure on startup
+2017-10-29 19:58:50,873Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 19:58:50,892Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 19:58:50,912Using a shared selector for servlet write/read
+2017-10-29 19:58:50,943Tomcat started on port(s): 8080 (http)
+2017-10-29 19:58:50,949Started WxSellApplication in 10.861 seconds (JVM running for 12.333)
+2017-10-29 19:59:01,313Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 19:59:01,314FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 19:59:01,422FrameworkServlet 'dispatcherServlet': initialization completed in 108 ms
+2017-10-29 19:59:01,542进入test
+2017-10-29 20:07:54,204Starting WxSellApplication on AFAAW-705012348 with PID 7800 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 20:07:54,215No active profile set, falling back to default profiles: default
+2017-10-29 20:07:54,528Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 20:07:54 CST 2017]; root of context hierarchy
+2017-10-29 20:07:56,101HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 20:07:57,982JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 20:07:59,421Tomcat initialized with port(s): 8080 (http)
+2017-10-29 20:07:59,447Starting service [Tomcat]
+2017-10-29 20:07:59,451Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 20:07:59,636Initializing Spring embedded WebApplicationContext
+2017-10-29 20:07:59,636Root WebApplicationContext: initialization completed in 5109 ms
+2017-10-29 20:07:59,857Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 20:07:59,865Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 20:07:59,866Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 20:07:59,866Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 20:07:59,866Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 20:08:00,966Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:08:01,027HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 20:08:01,328HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 20:08:01,334HHH000206: hibernate.properties not found
+2017-10-29 20:08:01,340HHH000021: Bytecode provider name : javassist
+2017-10-29 20:08:01,809HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 20:08:02,145HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 20:08:03,849Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:08:06,595Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 20:07:54 CST 2017]; root of context hierarchy
+2017-10-29 20:08:06,742Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 20:08:06,744Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 20:08:06,747Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 20:08:06,747Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 20:08:06,749Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 20:08:06,751Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 20:08:06,752Mapped "{[/test],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.test()
+2017-10-29 20:08:06,756Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 20:08:06,760Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 20:08:06,763Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 20:08:06,768Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 20:08:06,770Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 20:08:06,822Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:08:06,822Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:08:06,936Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:08:07,341Registering beans for JMX exposure on startup
+2017-10-29 20:08:07,371Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:08:07,399Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:08:07,420Using a shared selector for servlet write/read
+2017-10-29 20:08:07,456Tomcat started on port(s): 8080 (http)
+2017-10-29 20:08:07,468Started WxSellApplication in 14.316 seconds (JVM running for 16.166)
+2017-10-29 20:11:42,694Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 20:11:42,695FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 20:11:42,928FrameworkServlet 'dispatcherServlet': initialization completed in 233 ms
+2017-10-29 20:11:43,064openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:11:43,454HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 20:11:44,003【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:11:46,158【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509279106",
+  "nonceStr": "xqc64DqTbYlYO42i",
+  "packAge": "prepay_id\u003dwx201710292011443f768d8ef40968389026",
+  "signType": "MD5",
+  "paySign": "F9E431FA3DACC6D1098A66A9C6939451"
+}
+2017-10-29 20:15:13,342Starting WxSellApplication on AFAAW-705012348 with PID 15200 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 20:15:13,350No active profile set, falling back to default profiles: default
+2017-10-29 20:15:13,544Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 20:15:13 CST 2017]; root of context hierarchy
+2017-10-29 20:15:14,639HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 20:15:16,522JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 20:15:17,644Tomcat initialized with port(s): 8080 (http)
+2017-10-29 20:15:17,660Starting service [Tomcat]
+2017-10-29 20:15:17,661Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 20:15:17,826Initializing Spring embedded WebApplicationContext
+2017-10-29 20:15:17,826Root WebApplicationContext: initialization completed in 4283 ms
+2017-10-29 20:15:18,056Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 20:15:18,063Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 20:15:18,064Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 20:15:18,064Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 20:15:18,064Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 20:15:18,819Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:15:18,837HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 20:15:18,910HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 20:15:18,911HHH000206: hibernate.properties not found
+2017-10-29 20:15:18,913HHH000021: Bytecode provider name : javassist
+2017-10-29 20:15:19,061HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 20:15:19,187HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 20:15:21,442Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:15:24,516Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 20:15:13 CST 2017]; root of context hierarchy
+2017-10-29 20:15:24,657Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 20:15:24,662Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 20:15:24,662Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 20:15:24,663Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 20:15:24,664Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 20:15:24,665Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 20:15:24,667Mapped "{[/test],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.test()
+2017-10-29 20:15:24,670Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 20:15:24,671Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 20:15:24,674Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 20:15:24,678Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 20:15:24,680Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 20:15:24,722Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:15:24,722Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:15:24,778Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:15:25,125Registering beans for JMX exposure on startup
+2017-10-29 20:15:25,145Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:15:25,159Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:15:25,173Using a shared selector for servlet write/read
+2017-10-29 20:15:25,203Tomcat started on port(s): 8080 (http)
+2017-10-29 20:15:25,211Started WxSellApplication in 13.198 seconds (JVM running for 14.52)
+2017-10-29 20:15:33,895Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 20:15:33,896FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 20:15:33,997FrameworkServlet 'dispatcherServlet': initialization completed in 101 ms
+2017-10-29 20:15:34,145openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:15:34,461HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 20:15:34,896【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:15:36,491【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509279336",
+  "nonceStr": "AkMeSlcVl0Xhc1vR",
+  "packAge": "prepay_id\u003dwx20171029201534f18cfb11a40196976790",
+  "signType": "MD5",
+  "paySign": "B06D3AD8A3D20DABBFEF32DDF97BFB5A"
+}
+2017-10-29 20:20:44,584Starting WxSellApplication on AFAAW-705012348 with PID 11828 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 20:20:44,588No active profile set, falling back to default profiles: default
+2017-10-29 20:20:44,697Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 20:20:44 CST 2017]; root of context hierarchy
+2017-10-29 20:20:45,569HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 20:20:47,263JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 20:20:48,693Tomcat initialized with port(s): 8080 (http)
+2017-10-29 20:20:48,717Starting service [Tomcat]
+2017-10-29 20:20:48,719Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 20:20:48,909Initializing Spring embedded WebApplicationContext
+2017-10-29 20:20:48,909Root WebApplicationContext: initialization completed in 4212 ms
+2017-10-29 20:20:49,162Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 20:20:49,172Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 20:20:49,172Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 20:20:49,172Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 20:20:49,172Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 20:20:49,954Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:20:49,974HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 20:20:50,045HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 20:20:50,047HHH000206: hibernate.properties not found
+2017-10-29 20:20:50,049HHH000021: Bytecode provider name : javassist
+2017-10-29 20:20:50,212HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 20:20:50,354HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 20:20:51,068Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:20:52,681Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72967906: startup date [Sun Oct 29 20:20:44 CST 2017]; root of context hierarchy
+2017-10-29 20:20:52,817Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 20:20:52,821Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 20:20:52,822Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 20:20:52,823Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 20:20:52,824Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 20:20:52,825Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 20:20:52,826Mapped "{[/test],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.test()
+2017-10-29 20:20:52,828Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 20:20:52,830Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 20:20:52,832Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 20:20:52,840Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 20:20:52,841Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 20:20:52,875Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:20:52,875Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:20:52,927Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:20:53,317Registering beans for JMX exposure on startup
+2017-10-29 20:20:53,338Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:20:53,364Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:20:53,384Using a shared selector for servlet write/read
+2017-10-29 20:20:53,438Tomcat started on port(s): 8080 (http)
+2017-10-29 20:20:53,456Started WxSellApplication in 9.775 seconds (JVM running for 10.893)
+2017-10-29 20:21:07,577Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 20:21:07,577FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 20:21:07,712FrameworkServlet 'dispatcherServlet': initialization completed in 133 ms
+2017-10-29 20:21:07,896openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:21:08,374HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 20:21:08,833【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:21:10,724【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509279670",
+  "nonceStr": "2sVRFBMsLmQv6M8S",
+  "packAge": "prepay_id\u003dwx2017102920210967aa09e4b70176155374",
+  "signType": "MD5",
+  "paySign": "363D8EB13110F67AD594B68A68201394"
+}
+2017-10-29 20:25:34,503Starting WxSellApplication on AFAAW-705012348 with PID 9024 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 20:25:34,510No active profile set, falling back to default profiles: default
+2017-10-29 20:25:34,637Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:25:34 CST 2017]; root of context hierarchy
+2017-10-29 20:25:35,767HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 20:25:37,577JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 20:25:38,521Tomcat initialized with port(s): 8080 (http)
+2017-10-29 20:25:38,545Starting service [Tomcat]
+2017-10-29 20:25:38,548Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 20:25:38,720Initializing Spring embedded WebApplicationContext
+2017-10-29 20:25:38,721Root WebApplicationContext: initialization completed in 4084 ms
+2017-10-29 20:25:38,945Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 20:25:38,952Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 20:25:38,952Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 20:25:38,953Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 20:25:38,953Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 20:25:39,720Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:25:39,741HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 20:25:39,852HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 20:25:39,854HHH000206: hibernate.properties not found
+2017-10-29 20:25:39,856HHH000021: Bytecode provider name : javassist
+2017-10-29 20:25:40,023HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 20:25:40,160HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 20:25:40,662Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:25:41,862Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:25:34 CST 2017]; root of context hierarchy
+2017-10-29 20:25:41,952Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 20:25:41,954Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 20:25:41,954Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 20:25:41,956Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 20:25:41,960Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 20:25:41,962Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 20:25:41,963Mapped "{[/test],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.test()
+2017-10-29 20:25:41,965Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 20:25:41,967Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 20:25:41,969Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 20:25:41,977Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 20:25:41,986Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 20:25:42,062Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:25:42,062Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:25:42,151Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:25:42,783ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 20:25:42,956Registering beans for JMX exposure on startup
+2017-10-29 20:25:42,989Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:25:43,012Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:25:43,030Using a shared selector for servlet write/read
+2017-10-29 20:25:43,060Tomcat started on port(s): 8080 (http)
+2017-10-29 20:25:43,068Started WxSellApplication in 9.773 seconds (JVM running for 11.147)
+2017-10-29 20:25:47,569Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 20:25:47,569FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 20:25:47,682FrameworkServlet 'dispatcherServlet': initialization completed in 112 ms
+2017-10-29 20:25:47,901openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:25:48,450HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 20:25:49,168【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:25:50,922【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509279950",
+  "nonceStr": "0Mxw8P8qUZGfOY4J",
+  "packAge": "prepay_id\u003dwx20171029202549f9b0877cca0225261650",
+  "signType": "MD5",
+  "paySign": "98B6E416BE3DEE9C2125F08C010703EE"
+}
+2017-10-29 20:26:04,445openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:26:04,517【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:26:04,896【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509279964",
+  "nonceStr": "eckDx0FUzBz3WyXH",
+  "packAge": "prepay_id\u003dwx201710292026038f89fe9b390054948237",
+  "signType": "MD5",
+  "paySign": "DF18410B6F24659B0F811B1F629C0791"
+}
+2017-10-29 20:26:06,159openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:26:06,238【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:26:06,589【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509279966",
+  "nonceStr": "5GySwXgp5lJ3gJnU",
+  "packAge": "prepay_id\u003dwx20171029202605b444ea4c6e0874687833",
+  "signType": "MD5",
+  "paySign": "EEC0844932A608EB1A6321A446AF6421"
+}
+2017-10-29 20:26:57,251openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:26:57,289【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:26:57,627【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509280017",
+  "nonceStr": "QYx2yfJEOzTThV69",
+  "packAge": "prepay_id\u003dwx2017102920265677f7e39d7e0869184242",
+  "signType": "MD5",
+  "paySign": "4A37C5FD3CDE1C763A343328DA2AAD8C"
+}
+2017-10-29 20:27:52,966openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:27:53,004【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:27:53,304【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509280073",
+  "nonceStr": "NnfteflJlsYddGvq",
+  "packAge": "prepay_id\u003dwx20171029202751d912ad73ca0172646367",
+  "signType": "MD5",
+  "paySign": "C370AEEE398F0BBB6AA5AD6C7B7AC7E9"
+}
+2017-10-29 20:28:01,761openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:28:01,790【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:28:02,098【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509280082",
+  "nonceStr": "4fmKTY2iTzIKXVc9",
+  "packAge": "prepay_id\u003dwx201710292028008ac045b9d40626176808",
+  "signType": "MD5",
+  "paySign": "9DBFE2F85EED6692A900A6B720EC75FE"
+}
+2017-10-29 20:28:36,766openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:28:36,791【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:28:37,051【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509280117",
+  "nonceStr": "n2ks4PaiwE4q8Kmg",
+  "packAge": "prepay_id\u003dwx201710292028354c20ef34740673340564",
+  "signType": "MD5",
+  "paySign": "F3FE9E4669E3C7DD0E1A8F0E8436475B"
+}
+2017-10-29 20:28:45,072openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:28:45,110【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:28:45,384【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509280125",
+  "nonceStr": "e3erkeYh4F3jDzcW",
+  "packAge": "prepay_id\u003dwx20171029202843714ceb9afb0542824627",
+  "signType": "MD5",
+  "paySign": "E5F9A192A41B9B36FD6982440AA3CDE7"
+}
+2017-10-29 20:31:23,246openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:31:23,277【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 40.8,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:31:23,631【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509280283",
+  "nonceStr": "Uv5e2iqDLNntlIv3",
+  "packAge": "prepay_id\u003dwx20171029203122b735f836050962554509",
+  "signType": "MD5",
+  "paySign": "25F1BA71039D53481A91C784C394FE1C"
+}
+2017-10-29 20:32:03,242Starting WxSellApplication on AFAAW-705012348 with PID 5460 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 20:32:03,247No active profile set, falling back to default profiles: default
+2017-10-29 20:32:03,431Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:32:03 CST 2017]; root of context hierarchy
+2017-10-29 20:32:04,232HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 20:32:05,932JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 20:32:07,110Tomcat initialized with port(s): 8080 (http)
+2017-10-29 20:32:07,128Starting service [Tomcat]
+2017-10-29 20:32:07,129Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 20:32:07,495Initializing Spring embedded WebApplicationContext
+2017-10-29 20:32:07,495Root WebApplicationContext: initialization completed in 4065 ms
+2017-10-29 20:32:07,911Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 20:32:07,920Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 20:32:07,921Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 20:32:07,922Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 20:32:07,922Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 20:32:08,868Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:32:08,886HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 20:32:09,013HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 20:32:09,015HHH000206: hibernate.properties not found
+2017-10-29 20:32:09,018HHH000021: Bytecode provider name : javassist
+2017-10-29 20:32:09,186HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 20:32:09,391HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 20:32:10,013Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:32:11,551Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:32:03 CST 2017]; root of context hierarchy
+2017-10-29 20:32:11,772Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 20:32:11,774Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 20:32:11,775Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 20:32:11,775Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 20:32:11,779Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 20:32:11,780Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 20:32:11,783Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 20:32:11,783Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 20:32:11,786Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 20:32:11,788Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 20:32:11,789Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 20:32:11,850Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:32:11,851Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:32:11,936Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:32:12,489ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 20:32:12,682Registering beans for JMX exposure on startup
+2017-10-29 20:32:12,704Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:32:12,726Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:32:12,742Using a shared selector for servlet write/read
+2017-10-29 20:32:12,775Tomcat started on port(s): 8080 (http)
+2017-10-29 20:32:12,782Started WxSellApplication in 10.85 seconds (JVM running for 12.759)
+2017-10-29 20:33:01,238Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 20:33:01,239FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 20:33:01,383FrameworkServlet 'dispatcherServlet': initialization completed in 141 ms
+2017-10-29 20:33:01,646openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:33:02,046HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 20:33:02,791【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 0.01,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:34:26,112openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:34:26,144【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 0.01,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:38:45,468Starting WxSellApplication on AFAAW-705012348 with PID 300 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 20:38:45,473No active profile set, falling back to default profiles: default
+2017-10-29 20:38:45,605Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:38:45 CST 2017]; root of context hierarchy
+2017-10-29 20:38:46,484HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 20:38:47,793JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 20:38:48,727Tomcat initialized with port(s): 8080 (http)
+2017-10-29 20:38:48,746Starting service [Tomcat]
+2017-10-29 20:38:48,749Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 20:38:48,929Initializing Spring embedded WebApplicationContext
+2017-10-29 20:38:48,930Root WebApplicationContext: initialization completed in 3325 ms
+2017-10-29 20:38:49,183Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 20:38:49,190Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 20:38:49,190Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 20:38:49,191Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 20:38:49,191Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 20:38:50,116Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:38:50,141HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 20:38:50,230HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 20:38:50,232HHH000206: hibernate.properties not found
+2017-10-29 20:38:50,234HHH000021: Bytecode provider name : javassist
+2017-10-29 20:38:50,409HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 20:38:50,554HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 20:38:51,140Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:38:52,313Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:38:45 CST 2017]; root of context hierarchy
+2017-10-29 20:38:52,406Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 20:38:52,408Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 20:38:52,409Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 20:38:52,409Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 20:38:52,410Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 20:38:52,413Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 20:38:52,416Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 20:38:52,417Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 20:38:52,418Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 20:38:52,421Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 20:38:52,422Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 20:38:52,461Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:38:52,474Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:38:52,524Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:38:52,916ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 20:38:53,096Registering beans for JMX exposure on startup
+2017-10-29 20:38:53,126Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:38:53,144Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:38:53,159Using a shared selector for servlet write/read
+2017-10-29 20:38:53,185Tomcat started on port(s): 8080 (http)
+2017-10-29 20:38:53,191Started WxSellApplication in 8.766 seconds (JVM running for 10.502)
+2017-10-29 20:39:25,335Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 20:39:25,336FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 20:39:25,449FrameworkServlet 'dispatcherServlet': initialization completed in 113 ms
+2017-10-29 20:39:25,631openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA
+2017-10-29 20:39:26,003HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 20:39:26,474【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943462446413063",
+  "orderAmount": 0.01,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 20:39:28,292【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509280768",
+  "nonceStr": "xKVryX354ysqlOns",
+  "packAge": "prepay_id\u003dwx20171029203926f50b4037fd0174108580",
+  "signType": "MD5",
+  "paySign": "6B02CED6C4934B9504DDD6BA3658069F"
+}
+2017-10-29 20:42:37,284Starting WxSellApplication on AFAAW-705012348 with PID 11960 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 20:42:37,296No active profile set, falling back to default profiles: default
+2017-10-29 20:42:37,433Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:42:37 CST 2017]; root of context hierarchy
+2017-10-29 20:42:38,279HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 20:42:40,554JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 20:42:42,435Tomcat initialized with port(s): 8080 (http)
+2017-10-29 20:42:42,461Starting service [Tomcat]
+2017-10-29 20:42:42,464Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 20:42:42,759Initializing Spring embedded WebApplicationContext
+2017-10-29 20:42:42,760Root WebApplicationContext: initialization completed in 5326 ms
+2017-10-29 20:42:43,051Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 20:42:43,055Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 20:42:43,056Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 20:42:43,056Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 20:42:43,057Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 20:42:44,063Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:42:44,109HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 20:42:44,287HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 20:42:44,290HHH000206: hibernate.properties not found
+2017-10-29 20:42:44,296HHH000021: Bytecode provider name : javassist
+2017-10-29 20:42:44,640HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 20:42:44,905HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 20:42:45,752Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 20:42:47,739Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 20:42:37 CST 2017]; root of context hierarchy
+2017-10-29 20:42:47,866Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 20:42:47,870Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 20:42:47,870Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 20:42:47,871Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 20:42:47,872Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 20:42:47,874Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 20:42:47,875Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 20:42:47,876Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 20:42:47,880Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 20:42:47,885Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 20:42:47,887Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 20:42:47,938Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:42:47,938Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:42:48,005Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 20:42:48,387ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 20:42:48,607Registering beans for JMX exposure on startup
+2017-10-29 20:42:48,630Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:42:48,646Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 20:42:48,668Using a shared selector for servlet write/read
+2017-10-29 20:42:48,705Tomcat started on port(s): 8080 (http)
+2017-10-29 20:42:48,721Started WxSellApplication in 12.573 seconds (JVM running for 14.759)
+2017-10-29 20:43:22,435Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 20:43:22,435FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 20:43:22,746FrameworkServlet 'dispatcherServlet': initialization completed in 310 ms
+2017-10-29 21:19:20,555Starting WxSellApplication on AFAAW-705012348 with PID 13568 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 21:19:20,560No active profile set, falling back to default profiles: default
+2017-10-29 21:19:20,663Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 21:19:20 CST 2017]; root of context hierarchy
+2017-10-29 21:19:21,443HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 21:19:23,096JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 21:19:24,912Tomcat initialized with port(s): 8080 (http)
+2017-10-29 21:19:24,946Starting service [Tomcat]
+2017-10-29 21:19:24,948Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 21:19:25,275Initializing Spring embedded WebApplicationContext
+2017-10-29 21:19:25,276Root WebApplicationContext: initialization completed in 4613 ms
+2017-10-29 21:19:25,598Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 21:19:25,602Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 21:19:25,603Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 21:19:25,603Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 21:19:25,603Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 21:19:26,363Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 21:19:26,394HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 21:19:26,469HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 21:19:26,471HHH000206: hibernate.properties not found
+2017-10-29 21:19:26,474HHH000021: Bytecode provider name : javassist
+2017-10-29 21:19:26,709HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 21:19:26,993HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 21:19:27,590Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 21:19:28,952Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 21:19:20 CST 2017]; root of context hierarchy
+2017-10-29 21:19:29,081Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 21:19:29,083Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 21:19:29,083Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 21:19:29,084Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 21:19:29,085Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 21:19:29,087Mapped "{[/pay],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 21:19:29,087Mapped "{[/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 21:19:29,089Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 21:19:29,090Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 21:19:29,091Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 21:19:29,094Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 21:19:29,094Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 21:19:29,122Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:19:29,123Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:19:29,176Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:19:29,516ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 21:19:29,689Registering beans for JMX exposure on startup
+2017-10-29 21:19:29,712Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 21:19:29,730Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 21:19:29,745Using a shared selector for servlet write/read
+2017-10-29 21:19:29,777Tomcat started on port(s): 8080 (http)
+2017-10-29 21:19:29,784Started WxSellApplication in 10.88 seconds (JVM running for 12.939)
+2017-10-29 21:21:23,290Starting WxSellApplication on AFAAW-705012348 with PID 14984 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 21:21:23,295No active profile set, falling back to default profiles: default
+2017-10-29 21:21:23,418Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 21:21:23 CST 2017]; root of context hierarchy
+2017-10-29 21:21:24,519HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 21:21:26,123JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 21:21:27,223Tomcat initialized with port(s): 8080 (http)
+2017-10-29 21:21:27,251Starting service [Tomcat]
+2017-10-29 21:21:27,256Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 21:21:27,508Initializing Spring embedded WebApplicationContext
+2017-10-29 21:21:27,508Root WebApplicationContext: initialization completed in 4090 ms
+2017-10-29 21:21:27,881Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 21:21:27,888Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 21:21:27,889Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 21:21:27,889Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 21:21:27,890Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 21:21:28,668Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 21:21:28,688HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 21:21:28,759HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 21:21:28,761HHH000206: hibernate.properties not found
+2017-10-29 21:21:28,763HHH000021: Bytecode provider name : javassist
+2017-10-29 21:21:28,915HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 21:21:29,055HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 21:21:30,237Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 21:21:33,330Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 21:21:23 CST 2017]; root of context hierarchy
+2017-10-29 21:21:33,588Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 21:21:33,590Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 21:21:33,591Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 21:21:33,591Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 21:21:33,592Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 21:21:33,594Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 21:21:33,596Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 21:21:33,597Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 21:21:33,603Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 21:21:33,609Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 21:21:33,609Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 21:21:33,682Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:21:33,683Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:21:33,822Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:21:34,516ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 21:21:34,850Registering beans for JMX exposure on startup
+2017-10-29 21:21:34,891Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 21:21:34,915Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 21:21:34,942Using a shared selector for servlet write/read
+2017-10-29 21:21:34,997Tomcat started on port(s): 8080 (http)
+2017-10-29 21:21:35,003Started WxSellApplication in 12.736 seconds (JVM running for 14.65)
+2017-10-29 21:21:59,277Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 21:21:59,278FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 21:21:59,364FrameworkServlet 'dispatcherServlet': initialization completed in 86 ms
+2017-10-29 21:21:59,815HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 21:22:00,242【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690209",
+  "orderAmount": 0.01,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 21:22:57,693【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690210",
+  "orderAmount": 0.01,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 21:22:58,081【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509283378",
+  "nonceStr": "XwFo0LvpESrPX4jh",
+  "packAge": "prepay_id\u003dwx2017102921225601b3c718980306289967",
+  "signType": "MD5",
+  "paySign": "E6AEFD49B7F449E9616E4B765AF78A03"
+}
+2017-10-29 21:23:50,177【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690210",
+  "orderAmount": 0.01,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 21:23:50,657【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509283430",
+  "nonceStr": "iJy3AMIf7EvMAspR",
+  "packAge": "prepay_id\u003dwx201710292123494fcf8ef8350078776862",
+  "signType": "MD5",
+  "paySign": "FB213D43E196D19C39775D61AAAC1144"
+}
+2017-10-29 21:23:59,829【微信支付】request={
+  "payTypeEnum": "WXPAY_H5",
+  "orderId": "1508943088595690210",
+  "orderAmount": 0.01,
+  "orderName": "微信点餐订单",
+  "openid": "oTgZpwZxD5oi6mLb-ZJJA7OPwSrA"
+}
+2017-10-29 21:24:00,134【微信支付】response={
+  "appId": "wxd898fcb01713c658",
+  "timeStamp": "1509283440",
+  "nonceStr": "qRTYFt0Tf3q8pNvM",
+  "packAge": "prepay_id\u003dwx20171029212358c958ea5fb90206336236",
+  "signType": "MD5",
+  "paySign": "DE614CA7A478FDC4B4BF61622520F336"
+}
+2017-10-29 21:40:28,456Starting WxSellApplication on AFAAW-705012348 with PID 15644 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 21:40:28,461No active profile set, falling back to default profiles: default
+2017-10-29 21:40:28,606Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 21:40:28 CST 2017]; root of context hierarchy
+2017-10-29 21:40:29,609HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 21:40:31,749JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 21:40:32,795Tomcat initialized with port(s): 8080 (http)
+2017-10-29 21:40:32,829Starting service [Tomcat]
+2017-10-29 21:40:32,831Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 21:40:33,170Initializing Spring embedded WebApplicationContext
+2017-10-29 21:40:33,171Root WebApplicationContext: initialization completed in 4565 ms
+2017-10-29 21:40:33,576Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 21:40:33,583Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 21:40:33,584Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 21:40:33,585Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 21:40:33,585Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 21:40:34,398Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 21:40:34,420HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 21:40:34,490HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 21:40:34,492HHH000206: hibernate.properties not found
+2017-10-29 21:40:34,494HHH000021: Bytecode provider name : javassist
+2017-10-29 21:40:34,670HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 21:40:34,796HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 21:40:35,360Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 21:40:36,675Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 21:40:28 CST 2017]; root of context hierarchy
+2017-10-29 21:40:36,799Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 21:40:36,801Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 21:40:36,801Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 21:40:36,801Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 21:40:36,802Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 21:40:36,805Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 21:40:36,806Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 21:40:36,807Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 21:40:36,808Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 21:40:36,810Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 21:40:36,810Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 21:40:36,847Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:40:36,847Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:40:36,892Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 21:40:37,156ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 21:40:37,312Registering beans for JMX exposure on startup
+2017-10-29 21:40:37,336Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 21:40:37,356Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 21:40:37,376Using a shared selector for servlet write/read
+2017-10-29 21:40:37,407Tomcat started on port(s): 8080 (http)
+2017-10-29 21:40:37,413Started WxSellApplication in 10.616 seconds (JVM running for 12.213)
+2017-10-29 21:40:44,963Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 21:40:44,964FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 21:40:45,107FrameworkServlet 'dispatcherServlet': initialization completed in 143 ms
+2017-10-29 21:40:45,461HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 22:19:05,594Starting WxSellApplication on AFAAW-705012348 with PID 7936 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 22:19:05,598No active profile set, falling back to default profiles: default
+2017-10-29 22:19:05,729Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:19:05 CST 2017]; root of context hierarchy
+2017-10-29 22:19:06,597HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 22:19:08,267JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 22:19:09,452Tomcat initialized with port(s): 8080 (http)
+2017-10-29 22:19:09,469Starting service [Tomcat]
+2017-10-29 22:19:09,472Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 22:19:09,732Initializing Spring embedded WebApplicationContext
+2017-10-29 22:19:09,732Root WebApplicationContext: initialization completed in 4003 ms
+2017-10-29 22:19:10,021Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 22:19:10,032Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 22:19:10,034Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 22:19:10,034Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 22:19:10,034Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 22:19:11,079Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:19:11,095HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 22:19:11,171HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 22:19:11,173HHH000206: hibernate.properties not found
+2017-10-29 22:19:11,176HHH000021: Bytecode provider name : javassist
+2017-10-29 22:19:11,344HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 22:19:11,483HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 22:19:13,364Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:19:15,640Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:19:05 CST 2017]; root of context hierarchy
+2017-10-29 22:19:15,790Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 22:19:15,792Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 22:19:15,792Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 22:19:15,793Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 22:19:15,794Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 22:19:15,797Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 22:19:15,800Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 22:19:15,801Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 22:19:15,806Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 22:19:15,812Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 22:19:15,814Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 22:19:15,855Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:19:15,864Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:19:15,933Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:19:16,360ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 22:19:16,587Registering beans for JMX exposure on startup
+2017-10-29 22:19:16,612Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:19:16,633Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:19:16,648Using a shared selector for servlet write/read
+2017-10-29 22:19:16,677Tomcat started on port(s): 8080 (http)
+2017-10-29 22:19:16,686Started WxSellApplication in 12.177 seconds (JVM running for 13.875)
+2017-10-29 22:19:20,735Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 22:19:20,735FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 22:19:20,869FrameworkServlet 'dispatcherServlet': initialization completed in 129 ms
+2017-10-29 22:19:21,140HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 22:27:50,591Starting WxSellApplication on AFAAW-705012348 with PID 6828 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 22:27:50,601No active profile set, falling back to default profiles: default
+2017-10-29 22:27:50,763Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:27:50 CST 2017]; root of context hierarchy
+2017-10-29 22:27:51,958HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 22:27:54,343JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 22:27:55,530Tomcat initialized with port(s): 8080 (http)
+2017-10-29 22:27:55,556Starting service [Tomcat]
+2017-10-29 22:27:55,559Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 22:27:55,823Initializing Spring embedded WebApplicationContext
+2017-10-29 22:27:55,824Root WebApplicationContext: initialization completed in 5062 ms
+2017-10-29 22:27:56,218Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 22:27:56,228Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 22:27:56,228Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 22:27:56,228Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 22:27:56,229Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 22:27:57,395Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:27:57,421HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 22:27:57,533HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 22:27:57,535HHH000206: hibernate.properties not found
+2017-10-29 22:27:57,543HHH000021: Bytecode provider name : javassist
+2017-10-29 22:27:57,750HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 22:27:57,908HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 22:27:58,917Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:28:00,902Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:27:50 CST 2017]; root of context hierarchy
+2017-10-29 22:28:01,055Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 22:28:01,057Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 22:28:01,057Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 22:28:01,058Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 22:28:01,059Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 22:28:01,061Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 22:28:01,064Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 22:28:01,064Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 22:28:01,065Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 22:28:01,068Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 22:28:01,068Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 22:28:01,110Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:28:01,111Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:28:01,194Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:28:01,654ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 22:28:02,068Registering beans for JMX exposure on startup
+2017-10-29 22:28:02,103Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:28:02,140Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:28:02,172Using a shared selector for servlet write/read
+2017-10-29 22:28:02,204Tomcat started on port(s): 8080 (http)
+2017-10-29 22:28:02,213Started WxSellApplication in 13.09 seconds (JVM running for 14.648)
+2017-10-29 22:29:43,430Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 22:29:43,430FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 22:29:43,509FrameworkServlet 'dispatcherServlet': initialization completed in 78 ms
+2017-10-29 22:29:43,867HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 22:30:14,020【创建订单】orderForm=OrderForm(name=林凌霄, phone=15797692522, address=北京, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[{"productId":"123456","productQuantity":1}])
+2017-10-29 22:30:14,417【创建订单】orderId=1509287414145440362
+2017-10-29 22:35:23,739Starting WxSellApplication on AFAAW-705012348 with PID 3100 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 22:35:23,744No active profile set, falling back to default profiles: default
+2017-10-29 22:35:23,865Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:35:23 CST 2017]; root of context hierarchy
+2017-10-29 22:35:24,775HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 22:35:26,835JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 22:35:28,106Tomcat initialized with port(s): 8080 (http)
+2017-10-29 22:35:28,130Starting service [Tomcat]
+2017-10-29 22:35:28,134Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 22:35:28,360Initializing Spring embedded WebApplicationContext
+2017-10-29 22:35:28,361Root WebApplicationContext: initialization completed in 4496 ms
+2017-10-29 22:35:28,630Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 22:35:28,639Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 22:35:28,639Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 22:35:28,640Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 22:35:28,640Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 22:35:29,459Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:35:29,478HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 22:35:29,557HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 22:35:29,558HHH000206: hibernate.properties not found
+2017-10-29 22:35:29,560HHH000021: Bytecode provider name : javassist
+2017-10-29 22:35:29,736HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 22:35:29,886HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 22:35:30,559Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:35:31,971Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:35:23 CST 2017]; root of context hierarchy
+2017-10-29 22:35:32,094Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 22:35:32,097Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 22:35:32,097Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 22:35:32,098Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 22:35:32,099Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 22:35:32,103Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 22:35:32,104Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 22:35:32,105Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 22:35:32,107Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 22:35:32,110Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 22:35:32,111Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 22:35:32,148Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:35:32,148Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:35:32,205Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:35:32,660ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 22:35:32,961Registering beans for JMX exposure on startup
+2017-10-29 22:35:33,005Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:35:33,035Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:35:33,055Using a shared selector for servlet write/read
+2017-10-29 22:35:33,109Tomcat started on port(s): 8080 (http)
+2017-10-29 22:35:33,116Started WxSellApplication in 10.442 seconds (JVM running for 11.534)
+2017-10-29 22:36:52,301Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 22:36:52,302FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 22:36:52,436FrameworkServlet 'dispatcherServlet': initialization completed in 133 ms
+2017-10-29 22:36:52,747HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 22:37:16,447【创建订单】orderForm=OrderForm(name=林, phone=1579769999, address=背景, openid=, items=[{"productId":"123456","productQuantity":1}])
+2017-10-29 22:41:16,267Starting WxSellApplication on AFAAW-705012348 with PID 344 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 22:41:16,273No active profile set, falling back to default profiles: default
+2017-10-29 22:41:16,423Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:41:16 CST 2017]; root of context hierarchy
+2017-10-29 22:41:17,238HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 22:41:18,850JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 22:41:19,970Tomcat initialized with port(s): 8080 (http)
+2017-10-29 22:41:19,991Starting service [Tomcat]
+2017-10-29 22:41:19,993Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 22:41:20,215Initializing Spring embedded WebApplicationContext
+2017-10-29 22:41:20,217Root WebApplicationContext: initialization completed in 3793 ms
+2017-10-29 22:41:20,467Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 22:41:20,473Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 22:41:20,474Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 22:41:20,475Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 22:41:20,475Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 22:41:22,364Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:41:22,497HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 22:41:22,890HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 22:41:22,894HHH000206: hibernate.properties not found
+2017-10-29 22:41:22,901HHH000021: Bytecode provider name : javassist
+2017-10-29 22:41:23,444HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 22:41:23,856HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 22:41:24,894Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:41:26,531Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:41:16 CST 2017]; root of context hierarchy
+2017-10-29 22:41:26,677Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 22:41:26,679Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 22:41:26,679Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 22:41:26,679Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 22:41:26,681Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 22:41:26,683Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 22:41:26,685Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 22:41:26,686Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 22:41:26,687Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 22:41:26,690Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 22:41:26,690Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 22:41:26,759Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:41:26,760Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:41:26,808Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:41:27,152ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 22:41:27,328Registering beans for JMX exposure on startup
+2017-10-29 22:41:27,354Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:41:27,370Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:41:27,385Using a shared selector for servlet write/read
+2017-10-29 22:41:27,410Tomcat started on port(s): 8080 (http)
+2017-10-29 22:41:27,415Started WxSellApplication in 12.425 seconds (JVM running for 13.524)
+2017-10-29 22:41:31,379Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 22:41:31,380FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 22:41:31,511FrameworkServlet 'dispatcherServlet': initialization completed in 131 ms
+2017-10-29 22:41:31,933HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 22:41:48,810【创建订单】orderForm=OrderForm(name=fan, phone=110112, address=背景, openid=, items=[{"productId":"123456","productQuantity":1}])
+2017-10-29 22:58:54,321Starting WxSellApplication on AFAAW-705012348 with PID 14312 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 22:58:54,326No active profile set, falling back to default profiles: default
+2017-10-29 22:58:54,471Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:58:54 CST 2017]; root of context hierarchy
+2017-10-29 22:58:55,399HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 22:58:57,184JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 22:58:59,068Tomcat initialized with port(s): 8080 (http)
+2017-10-29 22:58:59,091Starting service [Tomcat]
+2017-10-29 22:58:59,093Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 22:58:59,322Initializing Spring embedded WebApplicationContext
+2017-10-29 22:58:59,322Root WebApplicationContext: initialization completed in 4852 ms
+2017-10-29 22:58:59,606Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 22:58:59,614Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 22:58:59,616Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 22:58:59,617Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 22:58:59,617Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 22:59:00,803Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:59:00,885HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 22:59:01,227HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 22:59:01,234HHH000206: hibernate.properties not found
+2017-10-29 22:59:01,244HHH000021: Bytecode provider name : javassist
+2017-10-29 22:59:01,831HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 22:59:02,223HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 22:59:03,376Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 22:59:05,546Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 22:58:54 CST 2017]; root of context hierarchy
+2017-10-29 22:59:05,725Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 22:59:05,727Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 22:59:05,731Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 22:59:05,731Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 22:59:05,732Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 22:59:05,737Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 22:59:05,740Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 22:59:05,740Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 22:59:05,742Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 22:59:05,745Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 22:59:05,747Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 22:59:05,838Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:59:05,839Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:59:05,903Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 22:59:06,230ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 22:59:06,475Registering beans for JMX exposure on startup
+2017-10-29 22:59:06,501Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:59:06,521Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 22:59:06,543Using a shared selector for servlet write/read
+2017-10-29 22:59:06,573Tomcat started on port(s): 8080 (http)
+2017-10-29 22:59:06,580Started WxSellApplication in 14.098 seconds (JVM running for 16.44)
+2017-10-29 22:59:28,377Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 22:59:28,378FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 22:59:28,662FrameworkServlet 'dispatcherServlet': initialization completed in 284 ms
+2017-10-29 22:59:28,933HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 23:03:55,714Starting WxSellApplication on AFAAW-705012348 with PID 4592 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 23:03:55,720No active profile set, falling back to default profiles: default
+2017-10-29 23:03:55,915Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 23:03:55 CST 2017]; root of context hierarchy
+2017-10-29 23:03:56,754HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 23:03:59,635JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 23:04:01,788Tomcat initialized with port(s): 8080 (http)
+2017-10-29 23:04:01,858Starting service [Tomcat]
+2017-10-29 23:04:01,860Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 23:04:02,315Initializing Spring embedded WebApplicationContext
+2017-10-29 23:04:02,315Root WebApplicationContext: initialization completed in 6401 ms
+2017-10-29 23:04:02,925Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 23:04:02,937Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 23:04:02,938Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 23:04:02,938Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 23:04:02,938Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 23:04:04,210Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:04:04,242HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 23:04:04,362HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 23:04:04,366HHH000206: hibernate.properties not found
+2017-10-29 23:04:04,374HHH000021: Bytecode provider name : javassist
+2017-10-29 23:04:04,635HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 23:04:04,848HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 23:04:05,766Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:04:08,046Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 23:03:55 CST 2017]; root of context hierarchy
+2017-10-29 23:04:08,327Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 23:04:08,330Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 23:04:08,332Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 23:04:08,334Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 23:04:08,337Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 23:04:08,340Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 23:04:08,344Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 23:04:08,346Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 23:04:08,351Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 23:04:08,361Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 23:04:08,364Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 23:04:08,485Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:04:08,495Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:04:08,668Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:04:09,687ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 23:04:09,967Registering beans for JMX exposure on startup
+2017-10-29 23:04:10,002Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:04:10,038Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:04:10,065Using a shared selector for servlet write/read
+2017-10-29 23:04:10,135Tomcat started on port(s): 8080 (http)
+2017-10-29 23:04:10,154Started WxSellApplication in 15.665 seconds (JVM running for 16.921)
+2017-10-29 23:04:16,797Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 23:04:16,798FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 23:04:16,937FrameworkServlet 'dispatcherServlet': initialization completed in 138 ms
+2017-10-29 23:04:17,373HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 23:08:02,461【创建订单】orderForm=OrderForm(name=进, phone=157976925, address=北京, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[{"productId":"654321","productQuantity":1}])
+2017-10-29 23:08:02,886【创建订单】orderId=1509289682511303457
+2017-10-29 23:11:26,969【创建订单】orderForm=OrderForm(name=, phone=, address=, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[])
+2017-10-29 23:11:28,171【创建订单】orderForm=OrderForm(name=, phone=, address=, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[])
+2017-10-29 23:11:28,702【创建订单】orderForm=OrderForm(name=, phone=, address=, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[])
+2017-10-29 23:11:30,310【创建订单】orderForm=OrderForm(name=, phone=, address=, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[])
+2017-10-29 23:11:30,666【创建订单】orderForm=OrderForm(name=, phone=, address=, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[])
+2017-10-29 23:13:14,661Starting WxSellApplication on AFAAW-705012348 with PID 10524 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 23:13:14,667No active profile set, falling back to default profiles: default
+2017-10-29 23:13:14,792Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 23:13:14 CST 2017]; root of context hierarchy
+2017-10-29 23:13:15,681HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 23:13:17,228JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 23:13:18,706Tomcat initialized with port(s): 8080 (http)
+2017-10-29 23:13:18,733Starting service [Tomcat]
+2017-10-29 23:13:18,735Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 23:13:19,113Initializing Spring embedded WebApplicationContext
+2017-10-29 23:13:19,115Root WebApplicationContext: initialization completed in 4324 ms
+2017-10-29 23:13:19,423Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 23:13:19,435Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 23:13:19,438Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 23:13:19,439Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 23:13:19,442Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 23:13:20,337Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:13:20,368HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 23:13:20,480HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 23:13:20,483HHH000206: hibernate.properties not found
+2017-10-29 23:13:20,486HHH000021: Bytecode provider name : javassist
+2017-10-29 23:13:20,740HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 23:13:20,894HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 23:13:22,474Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:13:25,327Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 23:13:14 CST 2017]; root of context hierarchy
+2017-10-29 23:13:25,470Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 23:13:25,537Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 23:13:25,545Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 23:13:25,546Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 23:13:25,549Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 23:13:25,553Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 23:13:25,555Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 23:13:25,565Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 23:13:25,571Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 23:13:25,575Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 23:13:25,576Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 23:13:25,671Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:13:25,709Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:13:25,804Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:13:26,412ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 23:13:26,721Registering beans for JMX exposure on startup
+2017-10-29 23:13:26,748Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:13:26,784Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:13:26,814Using a shared selector for servlet write/read
+2017-10-29 23:13:26,841Tomcat started on port(s): 8080 (http)
+2017-10-29 23:13:26,849Started WxSellApplication in 13.075 seconds (JVM running for 14.238)
+2017-10-29 23:13:49,019Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 23:13:49,020FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 23:13:49,365FrameworkServlet 'dispatcherServlet': initialization completed in 344 ms
+2017-10-29 23:13:49,670HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 23:14:26,027【创建订单】orderForm=OrderForm(name=林凌霄, phone=110112, address=北京, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[{"productId":"654321","productQuantity":1}])
+2017-10-29 23:14:26,531【创建订单】orderId=1509290066102917895
+2017-10-29 23:17:27,374Starting WxSellApplication on AFAAW-705012348 with PID 692 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 23:17:27,407No active profile set, falling back to default profiles: default
+2017-10-29 23:17:27,735Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78d6692f: startup date [Sun Oct 29 23:17:27 CST 2017]; root of context hierarchy
+2017-10-29 23:17:29,268HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 23:17:31,606JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 23:17:32,985Tomcat initialized with port(s): 8080 (http)
+2017-10-29 23:17:33,011Starting service [Tomcat]
+2017-10-29 23:17:33,014Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 23:17:33,264Initializing Spring embedded WebApplicationContext
+2017-10-29 23:17:33,265Root WebApplicationContext: initialization completed in 5530 ms
+2017-10-29 23:17:33,602Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 23:17:33,616Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 23:17:33,638Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 23:17:33,639Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 23:17:33,639Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 23:17:34,876Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:17:34,914HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 23:17:35,221HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 23:17:35,224HHH000206: hibernate.properties not found
+2017-10-29 23:17:35,226HHH000021: Bytecode provider name : javassist
+2017-10-29 23:17:35,304HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 23:17:35,639HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 23:17:36,536Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:17:38,433Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78d6692f: startup date [Sun Oct 29 23:17:27 CST 2017]; root of context hierarchy
+2017-10-29 23:17:38,592Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 23:17:38,594Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 23:17:38,595Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 23:17:38,595Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 23:17:38,596Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 23:17:38,605Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 23:17:38,606Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 23:17:38,607Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 23:17:38,610Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 23:17:38,613Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 23:17:38,615Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 23:17:38,672Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:17:38,672Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:17:38,774Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:17:39,292ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 23:17:39,783Registering beans for JMX exposure on startup
+2017-10-29 23:17:39,811Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:17:39,832Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:17:39,856Using a shared selector for servlet write/read
+2017-10-29 23:17:39,926Tomcat started on port(s): 8080 (http)
+2017-10-29 23:17:39,948Started WxSellApplication in 14.255 seconds (JVM running for 17.011)
+2017-10-29 23:17:51,456Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 23:17:51,458FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 23:17:51,723FrameworkServlet 'dispatcherServlet': initialization completed in 264 ms
+2017-10-29 23:17:52,119HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 23:18:09,772【创建订单】orderForm=OrderForm(name=林, phone=110111112, address=福建, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[{"productId":"654321","productQuantity":1}])
+2017-10-29 23:18:25,606【创建订单】orderId=1509290289824958859
+2017-10-29 23:20:37,571【创建订单】orderForm=OrderForm(name=林, phone=110111112, address=福建, openid=oTgZpwZxD5oi6mLb-ZJJA7OPwSrA, items=[{"productId":"654321","productQuantity":1}])
+2017-10-29 23:20:41,061【创建订单】orderId=1509290437575206319
+2017-10-29 23:32:42,638Starting WxSellApplication on AFAAW-705012348 with PID 9800 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-29 23:32:42,643No active profile set, falling back to default profiles: default
+2017-10-29 23:32:42,806Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 23:32:42 CST 2017]; root of context hierarchy
+2017-10-29 23:32:43,920HV000001: Hibernate Validator 5.3.5.Final
+2017-10-29 23:32:45,362JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-29 23:32:46,452Tomcat initialized with port(s): 8080 (http)
+2017-10-29 23:32:46,477Starting service [Tomcat]
+2017-10-29 23:32:46,479Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-29 23:32:46,725Initializing Spring embedded WebApplicationContext
+2017-10-29 23:32:46,726Root WebApplicationContext: initialization completed in 3921 ms
+2017-10-29 23:32:47,044Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-29 23:32:47,053Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-29 23:32:47,054Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-29 23:32:47,054Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-29 23:32:47,054Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-29 23:32:48,148Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:32:48,170HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-29 23:32:48,282HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-29 23:32:48,287HHH000206: hibernate.properties not found
+2017-10-29 23:32:48,290HHH000021: Bytecode provider name : javassist
+2017-10-29 23:32:48,506HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-29 23:32:48,719HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-29 23:32:49,341Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-29 23:32:50,689Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55183b20: startup date [Sun Oct 29 23:32:42 CST 2017]; root of context hierarchy
+2017-10-29 23:32:50,933Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-29 23:32:50,936Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-29 23:32:50,937Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-29 23:32:50,937Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-29 23:32:50,938Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-29 23:32:50,941Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-29 23:32:50,945Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-29 23:32:50,945Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-29 23:32:50,949Mapped "{[/weixin/auth],methods=[GET]}" onto public void com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-29 23:32:50,953Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-29 23:32:50,954Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-29 23:32:50,997Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:32:50,998Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:32:51,059Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-29 23:32:51,425ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-29 23:32:51,615Registering beans for JMX exposure on startup
+2017-10-29 23:32:51,647Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:32:51,672Starting ProtocolHandler ["http-nio-8080"]
+2017-10-29 23:32:51,702Using a shared selector for servlet write/read
+2017-10-29 23:32:51,731Tomcat started on port(s): 8080 (http)
+2017-10-29 23:32:51,740Started WxSellApplication in 10.693 seconds (JVM running for 12.22)
+2017-10-29 23:32:57,904Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-29 23:32:57,904FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-29 23:32:58,030FrameworkServlet 'dispatcherServlet': initialization completed in 125 ms
+2017-10-29 23:32:58,447HHH000397: Using ASTQueryTranslatorFactory
+2017-10-29 23:33:15,080【创建订单】orderForm=OrderForm(name=lin, phone=110, address=北京南, openid=, items=[{"productId":"123456","productQuantity":1}])

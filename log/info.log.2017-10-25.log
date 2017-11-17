@@ -1,0 +1,1146 @@
+Starting OrderServiceTest on AFAAW-705012348 with PID 6520 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3ba987b8: startup date [Wed Oct 25 14:43:46 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3ba987b8: startup date [Wed Oct 25 14:43:46 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceTest in 18.821 seconds (JVM running for 24.38)
+【创建订单】 result = OrderDTO(orderId=null, buyerName=萧萧, buyerPhone=13979183926, buyerAddress=慕课网, buyerOpenid=xiao123, orderAmount=null, orderStatus=null, payStatus=null, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1508913842997392546, orderId=1508913842461779400, productId=123456, productName=皮蛋粥, productPrice=10.50, productQuantity=2, productIcon=pdz.jpg)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3ba987b8: startup date [Wed Oct 25 14:43:46 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceTest on AFAAW-705012348 with PID 7840 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37b70343: startup date [Wed Oct 25 14:50:33 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37b70343: startup date [Wed Oct 25 14:50:33 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceTest in 11.036 seconds (JVM running for 14.44)
+【创建订单】 result = OrderDTO(orderId=null, buyerName=饭饭, buyerPhone=11011011011, buyerAddress=赣州, buyerOpenid=xiao123, orderAmount=null, orderStatus=null, payStatus=null, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1508914243510501220, orderId=1508914243289735869, productId=654321, productName=猪头肉, productPrice=20.40, productQuantity=3, productIcon=ztr.jpg)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@37b70343: startup date [Wed Oct 25 14:50:33 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceTest on AFAAW-705012348 with PID 10036 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3ba987b8: startup date [Wed Oct 25 14:58:29 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3ba987b8: startup date [Wed Oct 25 14:58:29 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceTest in 10.429 seconds (JVM running for 13.216)
+【创建订单】 result = OrderDTO(orderId=null, buyerName=饭饭, buyerPhone=11011011011, buyerAddress=赣州, buyerOpenid=xiao123, orderAmount=null, orderStatus=null, payStatus=null, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1508914718830708030, orderId=1508914718684570781, productId=654321, productName=猪头肉, productPrice=20.40, productQuantity=4, productIcon=ztr.jpg), OrderDetail(detailId=1508914718897166980, orderId=1508914718684570781, productId=123456, productName=皮蛋粥, productPrice=10.50, productQuantity=2, productIcon=pdz.jpg)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3ba987b8: startup date [Wed Oct 25 14:58:29 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceTest on AFAAW-705012348 with PID 8684 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3f191845: startup date [Wed Oct 25 15:19:13 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3f191845: startup date [Wed Oct 25 15:19:13 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceTest in 11.558 seconds (JVM running for 13.813)
+HHH000397: Using ASTQueryTranslatorFactory
+【查询单个订单】result=OrderDTO(orderId=1508914718684570781, buyerName=饭饭, buyerPhone=11011011011, buyerAddress=赣州, buyerOpenid=xiao123, orderAmount=102.60, orderStatus=0, payStatus=0, createTime=2017-10-24 09:08:10.0, updateTime=2017-10-24 09:08:10.0, orderDetailList=[OrderDetail(detailId=1508914718830708030, orderId=1508914718684570781, productId=654321, productName=猪头肉, productPrice=20.40, productQuantity=4, productIcon=ztr.jpg), OrderDetail(detailId=1508914718897166980, orderId=1508914718684570781, productId=123456, productName=皮蛋粥, productPrice=10.50, productQuantity=2, productIcon=pdz.jpg)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3f191845: startup date [Wed Oct 25 15:19:13 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceTest on AFAAW-705012348 with PID 8608 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Wed Oct 25 15:44:36 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Wed Oct 25 15:44:36 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceTest in 7.436 seconds (JVM running for 9.712)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Wed Oct 25 15:44:36 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceTest on AFAAW-705012348 with PID 10740 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Wed Oct 25 15:45:22 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Wed Oct 25 15:45:22 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceTest in 7.473 seconds (JVM running for 9.988)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Wed Oct 25 15:45:22 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:34:29,594Starting OrderServiceTest on AFAAW-705012348 with PID 11396 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 16:34:29,623No active profile set, falling back to default profiles: default
+2017-10-25 16:34:29,688Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Wed Oct 25 16:34:29 CST 2017]; root of context hierarchy
+2017-10-25 16:34:30,518HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 16:34:33,140Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:34:33,169HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 16:34:33,392HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 16:34:33,397HHH000206: hibernate.properties not found
+2017-10-25 16:34:33,400HHH000021: Bytecode provider name : javassist
+2017-10-25 16:34:33,587HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 16:34:33,900HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 16:34:34,853Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:34:36,053Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Wed Oct 25 16:34:29 CST 2017]; root of context hierarchy
+2017-10-25 16:34:36,156Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 16:34:36,160Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 16:34:36,160Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 16:34:36,220Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:34:36,221Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:34:36,284Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:34:36,634Started OrderServiceTest in 8.166 seconds (JVM running for 10.971)
+2017-10-25 16:34:36,915HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 16:34:37,150Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Wed Oct 25 16:34:29 CST 2017]; root of context hierarchy
+2017-10-25 16:34:37,161Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:38:22,349Starting OrderServiceTest on AFAAW-705012348 with PID 7268 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 16:38:22,351No active profile set, falling back to default profiles: default
+2017-10-25 16:38:22,424Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1080b026: startup date [Wed Oct 25 16:38:22 CST 2017]; root of context hierarchy
+2017-10-25 16:38:23,182HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 16:38:26,467Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:38:26,500HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 16:38:26,644HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 16:38:26,649HHH000206: hibernate.properties not found
+2017-10-25 16:38:26,654HHH000021: Bytecode provider name : javassist
+2017-10-25 16:38:26,776HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 16:38:26,996HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 16:38:28,182Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:38:48,382Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1080b026: startup date [Wed Oct 25 16:38:22 CST 2017]; root of context hierarchy
+2017-10-25 16:38:48,826Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 16:38:48,840Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 16:38:48,844Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 16:38:49,023Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:38:49,023Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:38:49,341Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:38:50,462Started OrderServiceTest in 29.306 seconds (JVM running for 32.647)
+2017-10-25 16:38:50,818HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 16:39:31,476Closing org.springframework.web.context.support.GenericWebApplicationContext@1080b026: startup date [Wed Oct 25 16:38:22 CST 2017]; root of context hierarchy
+2017-10-25 16:39:31,510Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:40:15,469Starting OrderServiceTest on AFAAW-705012348 with PID 12428 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 16:40:15,474No active profile set, falling back to default profiles: default
+2017-10-25 16:40:15,606Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6731787b: startup date [Wed Oct 25 16:40:15 CST 2017]; root of context hierarchy
+2017-10-25 16:40:16,401HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 16:40:19,597Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:40:19,634HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 16:40:19,783HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 16:40:19,788HHH000206: hibernate.properties not found
+2017-10-25 16:40:19,790HHH000021: Bytecode provider name : javassist
+2017-10-25 16:40:19,883HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 16:40:20,142HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 16:40:21,510Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:40:23,320Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6731787b: startup date [Wed Oct 25 16:40:15 CST 2017]; root of context hierarchy
+2017-10-25 16:40:23,447Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 16:40:23,453Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 16:40:23,455Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 16:40:23,524Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:40:23,524Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:40:23,609Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:40:24,193Started OrderServiceTest in 9.829 seconds (JVM running for 13.296)
+2017-10-25 16:40:24,495HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 16:49:41,388Starting OrderServiceTest on AFAAW-705012348 with PID 8456 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 16:49:41,392No active profile set, falling back to default profiles: default
+2017-10-25 16:49:41,474Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Wed Oct 25 16:49:41 CST 2017]; root of context hierarchy
+2017-10-25 16:49:42,231HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 16:49:44,701Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:49:44,719HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 16:49:44,803HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 16:49:44,806HHH000206: hibernate.properties not found
+2017-10-25 16:49:44,808HHH000021: Bytecode provider name : javassist
+2017-10-25 16:49:44,852HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 16:49:44,993HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 16:49:45,918Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 16:49:47,097Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Wed Oct 25 16:49:41 CST 2017]; root of context hierarchy
+2017-10-25 16:49:47,206Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 16:49:47,210Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 16:49:47,212Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 16:49:47,267Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:49:47,284Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:49:47,355Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 16:49:47,739Started OrderServiceTest in 7.398 seconds (JVM running for 10.448)
+2017-10-25 16:49:47,938HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 16:49:48,461Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Wed Oct 25 16:49:41 CST 2017]; root of context hierarchy
+2017-10-25 16:49:48,468Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:00:46,778Starting OrderServiceTest on AFAAW-705012348 with PID 12316 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 17:00:46,781No active profile set, falling back to default profiles: default
+2017-10-25 17:00:46,856Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Wed Oct 25 17:00:46 CST 2017]; root of context hierarchy
+2017-10-25 17:00:47,677HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 17:00:50,324Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:00:50,344HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 17:00:50,462HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 17:00:50,465HHH000206: hibernate.properties not found
+2017-10-25 17:00:50,468HHH000021: Bytecode provider name : javassist
+2017-10-25 17:00:50,525HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 17:00:50,725HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 17:00:51,605Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:00:52,926Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Wed Oct 25 17:00:46 CST 2017]; root of context hierarchy
+2017-10-25 17:00:53,033Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 17:00:53,038Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 17:00:53,041Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 17:00:53,090Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:00:53,090Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:00:53,161Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:00:53,598Started OrderServiceTest in 7.76 seconds (JVM running for 10.456)
+2017-10-25 17:00:53,849HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 17:00:54,055Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Wed Oct 25 17:00:46 CST 2017]; root of context hierarchy
+2017-10-25 17:00:54,066Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:01:20,161Starting OrderServiceTest on AFAAW-705012348 with PID 9764 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 17:01:20,164No active profile set, falling back to default profiles: default
+2017-10-25 17:01:20,247Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Wed Oct 25 17:01:20 CST 2017]; root of context hierarchy
+2017-10-25 17:01:20,966HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 17:01:23,454Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:01:23,481HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 17:01:23,615HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 17:01:23,623HHH000206: hibernate.properties not found
+2017-10-25 17:01:23,627HHH000021: Bytecode provider name : javassist
+2017-10-25 17:01:23,692HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 17:01:23,856HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 17:01:24,724Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:01:26,115Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Wed Oct 25 17:01:20 CST 2017]; root of context hierarchy
+2017-10-25 17:01:26,231Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 17:01:26,235Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 17:01:26,236Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 17:01:26,287Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:01:26,287Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:01:26,349Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:01:26,741Started OrderServiceTest in 8.007 seconds (JVM running for 10.616)
+2017-10-25 17:01:26,932HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 17:01:27,283Closing org.springframework.web.context.support.GenericWebApplicationContext@5e2c3d18: startup date [Wed Oct 25 17:01:20 CST 2017]; root of context hierarchy
+2017-10-25 17:01:27,294Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:15:14,040Starting OrderServiceTest on AFAAW-705012348 with PID 12112 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 17:15:14,046No active profile set, falling back to default profiles: default
+2017-10-25 17:15:14,130Refreshing org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:15:14 CST 2017]; root of context hierarchy
+2017-10-25 17:15:14,911HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 17:15:18,425Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:15:18,511HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 17:15:18,849HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 17:15:18,857HHH000206: hibernate.properties not found
+2017-10-25 17:15:18,865HHH000021: Bytecode provider name : javassist
+2017-10-25 17:15:19,015HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 17:15:19,621HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 17:15:22,212Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:15:24,917Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:15:14 CST 2017]; root of context hierarchy
+2017-10-25 17:15:25,058Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 17:15:25,064Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 17:15:25,067Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 17:15:25,126Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:15:25,126Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:15:25,204Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:15:25,700Started OrderServiceTest in 12.516 seconds (JVM running for 14.394)
+2017-10-25 17:15:25,931HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 17:15:26,165Closing org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:15:14 CST 2017]; root of context hierarchy
+2017-10-25 17:15:26,184Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:16:47,226Starting OrderServiceTest on AFAAW-705012348 with PID 9968 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 17:16:47,234No active profile set, falling back to default profiles: default
+2017-10-25 17:16:47,324Refreshing org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:16:47 CST 2017]; root of context hierarchy
+2017-10-25 17:16:48,055HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 17:16:50,707Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:16:50,730HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 17:16:50,830HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 17:16:50,833HHH000206: hibernate.properties not found
+2017-10-25 17:16:50,836HHH000021: Bytecode provider name : javassist
+2017-10-25 17:16:50,884HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 17:16:51,062HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 17:16:51,914Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:16:53,214Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:16:47 CST 2017]; root of context hierarchy
+2017-10-25 17:16:53,318Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 17:16:53,323Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 17:16:53,323Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 17:16:53,366Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:16:53,367Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:16:53,431Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:16:53,816Started OrderServiceTest in 7.501 seconds (JVM running for 9.855)
+2017-10-25 17:16:54,022HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 17:16:54,238Closing org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:16:47 CST 2017]; root of context hierarchy
+2017-10-25 17:16:54,253Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:21:57,132Starting OrderServiceTest on AFAAW-705012348 with PID 1032 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 17:21:57,136No active profile set, falling back to default profiles: default
+2017-10-25 17:21:57,294Refreshing org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:21:57 CST 2017]; root of context hierarchy
+2017-10-25 17:21:58,594HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 17:22:02,079Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:22:02,151HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 17:22:02,532HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 17:22:02,549HHH000206: hibernate.properties not found
+2017-10-25 17:22:02,560HHH000021: Bytecode provider name : javassist
+2017-10-25 17:22:02,770HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 17:22:03,297HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 17:22:05,798Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 17:22:08,777Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:21:57 CST 2017]; root of context hierarchy
+2017-10-25 17:22:08,943Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 17:22:08,950Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 17:22:08,953Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 17:22:09,021Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:22:09,021Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:22:09,106Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 17:22:09,489Started OrderServiceTest in 13.689 seconds (JVM running for 16.666)
+2017-10-25 17:22:09,786HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 17:22:10,015Closing org.springframework.web.context.support.GenericWebApplicationContext@cc43f62: startup date [Wed Oct 25 17:21:57 CST 2017]; root of context hierarchy
+2017-10-25 17:22:10,024Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:36:54,053Starting WxOrderApplication on AFAAW-705012348 with PID 12264 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 22:36:54,079No active profile set, falling back to default profiles: default
+2017-10-25 22:36:54,222Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 22:36:54 CST 2017]; root of context hierarchy
+2017-10-25 22:36:55,157HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 22:36:57,777Tomcat initialized with port(s): 8080 (http)
+2017-10-25 22:36:57,799Starting service [Tomcat]
+2017-10-25 22:36:57,801Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 22:36:57,962Initializing Spring embedded WebApplicationContext
+2017-10-25 22:36:57,963Root WebApplicationContext: initialization completed in 3741 ms
+2017-10-25 22:36:58,280Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 22:36:58,287Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 22:36:58,288Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 22:36:58,288Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 22:36:58,289Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 22:37:20,097Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$642c1470.CGLIB$jpaVendorAdapter$6(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$642c1470$$FastClassBySpringCGLIB$$5bee5a9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$642c1470.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.xiao.wx_order.WxOrderApplication.main(WxOrderApplication.java:10)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 61 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2189)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 62 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 85 common frames omitted
+2017-10-25 22:37:41,509Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:37:41,553HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 22:37:41,782HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 22:37:41,789HHH000206: hibernate.properties not found
+2017-10-25 22:37:41,794HHH000021: Bytecode provider name : javassist
+2017-10-25 22:37:42,018HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 22:38:03,888HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2017-10-25 22:38:03,902Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-10-25 22:38:03,911Stopping service [Tomcat]
+2017-10-25 22:38:04,048
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-25 22:41:58,224Starting WxOrderApplication on AFAAW-705012348 with PID 10156 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 22:41:58,232No active profile set, falling back to default profiles: default
+2017-10-25 22:41:58,474Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 22:41:58 CST 2017]; root of context hierarchy
+2017-10-25 22:41:59,753HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 22:42:02,951Tomcat initialized with port(s): 8080 (http)
+2017-10-25 22:42:02,972Starting service [Tomcat]
+2017-10-25 22:42:02,975Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 22:42:03,129Initializing Spring embedded WebApplicationContext
+2017-10-25 22:42:03,129Root WebApplicationContext: initialization completed in 4655 ms
+2017-10-25 22:42:03,387Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 22:42:03,393Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 22:42:03,395Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 22:42:03,396Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 22:42:03,397Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 22:42:25,013Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$479becf7.CGLIB$jpaVendorAdapter$6(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$479becf7$$FastClassBySpringCGLIB$$e0ab6bf9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$479becf7.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.xiao.wx_order.WxOrderApplication.main(WxOrderApplication.java:10)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 61 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2189)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 62 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 85 common frames omitted
+2017-10-25 22:42:31,840Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:42:31,883HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 22:42:32,064HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 22:42:32,066HHH000206: hibernate.properties not found
+2017-10-25 22:42:32,069HHH000021: Bytecode provider name : javassist
+2017-10-25 22:42:32,189HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 22:42:32,746HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 22:42:34,245Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:42:36,093Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 22:41:58 CST 2017]; root of context hierarchy
+2017-10-25 22:42:36,265Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 22:42:36,289Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 22:42:36,298Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 22:42:36,299Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 22:42:36,422Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:42:36,424Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:42:36,584Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:42:37,595Registering beans for JMX exposure on startup
+2017-10-25 22:42:37,631Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 22:42:37,680Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 22:42:37,704Using a shared selector for servlet write/read
+2017-10-25 22:42:37,734Tomcat started on port(s): 8080 (http)
+2017-10-25 22:42:37,741Started WxOrderApplication in 41.056 seconds (JVM running for 42.405)
+2017-10-25 22:43:38,709Starting WxOrderApplication on AFAAW-705012348 with PID 13824 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 22:43:38,723No active profile set, falling back to default profiles: default
+2017-10-25 22:43:38,945Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 22:43:38 CST 2017]; root of context hierarchy
+2017-10-25 22:43:40,227HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 22:43:43,782Tomcat initialized with port(s): 8080 (http)
+2017-10-25 22:43:43,805Starting service [Tomcat]
+2017-10-25 22:43:43,808Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 22:43:43,968Initializing Spring embedded WebApplicationContext
+2017-10-25 22:43:43,968Root WebApplicationContext: initialization completed in 5023 ms
+2017-10-25 22:43:44,177Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 22:43:44,182Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 22:43:44,185Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 22:43:44,187Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 22:43:44,188Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 22:43:44,878Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:43:44,896HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 22:43:44,990HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 22:43:44,991HHH000206: hibernate.properties not found
+2017-10-25 22:43:44,992HHH000021: Bytecode provider name : javassist
+2017-10-25 22:43:45,043HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 22:43:45,279HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 22:43:46,377Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:43:48,202Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 22:43:38 CST 2017]; root of context hierarchy
+2017-10-25 22:43:48,481Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 22:43:48,493Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 22:43:48,500Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 22:43:48,503Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 22:43:48,629Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:43:48,631Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:43:48,862Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:43:49,588Registering beans for JMX exposure on startup
+2017-10-25 22:43:49,626Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 22:43:49,681Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 22:43:49,726Using a shared selector for servlet write/read
+2017-10-25 22:43:49,821Tomcat started on port(s): 8080 (http)
+2017-10-25 22:43:49,836Started WxOrderApplication in 12.643 seconds (JVM running for 14.067)
+2017-10-25 22:50:34,415Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 22:50:34,415FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 22:50:34,536FrameworkServlet 'dispatcherServlet': initialization completed in 120 ms
+2017-10-25 22:56:57,928Starting WxOrderApplication on AFAAW-705012348 with PID 7696 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 22:56:57,936No active profile set, falling back to default profiles: default
+2017-10-25 22:56:58,082Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 22:56:58 CST 2017]; root of context hierarchy
+2017-10-25 22:56:58,968HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 22:57:01,759Tomcat initialized with port(s): 8080 (http)
+2017-10-25 22:57:01,784Starting service [Tomcat]
+2017-10-25 22:57:01,786Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 22:57:01,928Initializing Spring embedded WebApplicationContext
+2017-10-25 22:57:01,929Root WebApplicationContext: initialization completed in 3846 ms
+2017-10-25 22:57:02,197Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 22:57:02,208Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 22:57:02,209Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 22:57:02,209Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 22:57:02,209Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 22:57:02,949Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:57:02,971HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 22:57:03,066HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 22:57:03,069HHH000206: hibernate.properties not found
+2017-10-25 22:57:03,071HHH000021: Bytecode provider name : javassist
+2017-10-25 22:57:03,137HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 22:57:03,384HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 22:57:05,292Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 22:57:07,681Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 22:56:58 CST 2017]; root of context hierarchy
+2017-10-25 22:57:07,847Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 22:57:07,852Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 22:57:07,857Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 22:57:07,860Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 22:57:07,918Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:57:07,919Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:57:08,004Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 22:57:08,482Registering beans for JMX exposure on startup
+2017-10-25 22:57:08,515Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 22:57:08,538Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 22:57:08,561Using a shared selector for servlet write/read
+2017-10-25 22:57:08,599Tomcat started on port(s): 8080 (http)
+2017-10-25 22:57:08,606Started WxOrderApplication in 11.644 seconds (JVM running for 13.203)
+2017-10-25 22:57:41,162Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 22:57:41,164FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 22:57:41,331FrameworkServlet 'dispatcherServlet': initialization completed in 167 ms
+2017-10-25 23:07:29,708Starting WxOrderApplication on AFAAW-705012348 with PID 14280 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:07:29,713No active profile set, falling back to default profiles: default
+2017-10-25 23:07:29,869Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:07:29 CST 2017]; root of context hierarchy
+2017-10-25 23:07:30,754HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:07:33,325Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:07:33,341Starting service [Tomcat]
+2017-10-25 23:07:33,343Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:07:33,487Initializing Spring embedded WebApplicationContext
+2017-10-25 23:07:33,487Root WebApplicationContext: initialization completed in 3618 ms
+2017-10-25 23:07:33,795Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:07:33,806Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:07:33,806Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:07:33,806Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:07:33,807Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:07:34,725Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:07:34,758HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:07:34,962HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:07:34,964HHH000206: hibernate.properties not found
+2017-10-25 23:07:34,967HHH000021: Bytecode provider name : javassist
+2017-10-25 23:07:35,038HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:07:35,271HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:07:35,802Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:07:36,542Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:07:29 CST 2017]; root of context hierarchy
+2017-10-25 23:07:36,654Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:07:36,658Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:07:36,663Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:07:36,665Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:07:36,705Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:07:36,705Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:07:36,781Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:07:37,103Registering beans for JMX exposure on startup
+2017-10-25 23:07:37,124Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:07:37,142Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:07:37,158Using a shared selector for servlet write/read
+2017-10-25 23:07:37,183Tomcat started on port(s): 8080 (http)
+2017-10-25 23:07:37,190Started WxOrderApplication in 8.852 seconds (JVM running for 10.408)
+2017-10-25 23:09:44,828Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:09:44,829FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:09:44,909FrameworkServlet 'dispatcherServlet': initialization completed in 78 ms
+2017-10-25 23:10:13,596Starting WxOrderApplication on AFAAW-705012348 with PID 5416 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:10:13,605No active profile set, falling back to default profiles: default
+2017-10-25 23:10:13,827Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:10:13 CST 2017]; root of context hierarchy
+2017-10-25 23:10:15,019HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:10:18,245Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:10:18,260Starting service [Tomcat]
+2017-10-25 23:10:18,262Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:10:18,419Initializing Spring embedded WebApplicationContext
+2017-10-25 23:10:18,420Root WebApplicationContext: initialization completed in 4594 ms
+2017-10-25 23:10:18,658Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:10:18,666Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:10:18,667Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:10:18,667Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:10:18,667Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:10:19,573Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:10:19,598HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:10:19,688HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:10:19,692HHH000206: hibernate.properties not found
+2017-10-25 23:10:19,694HHH000021: Bytecode provider name : javassist
+2017-10-25 23:10:19,751HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:10:20,030HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:10:21,130Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:10:23,042Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:10:13 CST 2017]; root of context hierarchy
+2017-10-25 23:10:23,328Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:10:23,331Mapped "{[/buyer/order/list]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:10:23,342Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:10:23,353Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:10:23,356Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:10:23,462Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:10:23,464Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:10:23,608Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:10:24,269Registering beans for JMX exposure on startup
+2017-10-25 23:10:24,297Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:10:24,323Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:10:24,348Using a shared selector for servlet write/read
+2017-10-25 23:10:24,380Tomcat started on port(s): 8080 (http)
+2017-10-25 23:10:24,391Started WxOrderApplication in 12.038 seconds (JVM running for 13.107)
+2017-10-25 23:11:57,189Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:11:57,189FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:11:57,256FrameworkServlet 'dispatcherServlet': initialization completed in 66 ms
+2017-10-25 23:13:19,552HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 23:26:08,086Starting WxOrderApplication on AFAAW-705012348 with PID 1004 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:26:08,090No active profile set, falling back to default profiles: default
+2017-10-25 23:26:08,215Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:26:08 CST 2017]; root of context hierarchy
+2017-10-25 23:26:09,062HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:26:12,558Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:26:12,598Starting service [Tomcat]
+2017-10-25 23:26:12,599Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:26:12,919Initializing Spring embedded WebApplicationContext
+2017-10-25 23:26:12,920Root WebApplicationContext: initialization completed in 4704 ms
+2017-10-25 23:26:13,532Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:26:13,542Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:26:13,544Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:26:13,545Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:26:13,546Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:26:15,276Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:26:15,301HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:26:15,404HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:26:15,406HHH000206: hibernate.properties not found
+2017-10-25 23:26:15,410HHH000021: Bytecode provider name : javassist
+2017-10-25 23:26:15,465HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:26:15,762HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:26:16,739Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:26:19,030Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:26:08 CST 2017]; root of context hierarchy
+2017-10-25 23:26:19,201Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:26:19,202Mapped "{[/buyer/order/list]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:26:19,206Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:26:19,216Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:26:19,216Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:26:19,293Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:26:19,293Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:26:19,373Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:26:19,949Registering beans for JMX exposure on startup
+2017-10-25 23:26:19,994Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:26:20,030Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:26:20,056Using a shared selector for servlet write/read
+2017-10-25 23:26:20,102Tomcat started on port(s): 8080 (http)
+2017-10-25 23:26:20,109Started WxOrderApplication in 13.034 seconds (JVM running for 14.993)
+2017-10-25 23:27:00,056Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:27:00,057FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:27:00,183FrameworkServlet 'dispatcherServlet': initialization completed in 125 ms
+2017-10-25 23:27:00,500HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 23:30:16,020Starting WxOrderApplication on AFAAW-705012348 with PID 13084 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:30:16,025No active profile set, falling back to default profiles: default
+2017-10-25 23:30:16,168Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:30:16 CST 2017]; root of context hierarchy
+2017-10-25 23:30:17,060HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:30:20,852Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:30:20,881Starting service [Tomcat]
+2017-10-25 23:30:20,884Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:30:21,244Initializing Spring embedded WebApplicationContext
+2017-10-25 23:30:21,244Root WebApplicationContext: initialization completed in 5076 ms
+2017-10-25 23:30:21,507Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:30:21,516Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:30:21,517Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:30:21,517Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:30:21,517Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:30:22,810Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:30:22,840HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:30:22,968HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:30:22,969HHH000206: hibernate.properties not found
+2017-10-25 23:30:22,972HHH000021: Bytecode provider name : javassist
+2017-10-25 23:30:23,028HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:30:23,436HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:30:25,521Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:30:28,040Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:30:16 CST 2017]; root of context hierarchy
+2017-10-25 23:30:28,289Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:30:28,291Mapped "{[/buyer/order/list]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:30:28,301Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:30:28,307Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:30:28,307Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:30:28,403Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:30:28,404Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:30:28,524Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:30:29,239Registering beans for JMX exposure on startup
+2017-10-25 23:30:29,267Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:30:29,287Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:30:29,315Using a shared selector for servlet write/read
+2017-10-25 23:30:29,354Tomcat started on port(s): 8080 (http)
+2017-10-25 23:30:29,361Started WxOrderApplication in 14.696 seconds (JVM running for 17.066)
+2017-10-25 23:30:31,222Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:30:31,222FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:30:31,257FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2017-10-25 23:30:31,355HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 23:34:42,349Starting WxOrderApplication on AFAAW-705012348 with PID 7760 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:34:42,354No active profile set, falling back to default profiles: default
+2017-10-25 23:34:42,493Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:34:42 CST 2017]; root of context hierarchy
+2017-10-25 23:34:43,425HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:34:45,864Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:34:45,888Starting service [Tomcat]
+2017-10-25 23:34:45,890Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:34:46,054Initializing Spring embedded WebApplicationContext
+2017-10-25 23:34:46,055Root WebApplicationContext: initialization completed in 3562 ms
+2017-10-25 23:34:46,302Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:34:46,311Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:34:46,317Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:34:46,319Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:34:46,321Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:34:47,195Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:34:47,224HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:34:47,346HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:34:47,349HHH000206: hibernate.properties not found
+2017-10-25 23:34:47,355HHH000021: Bytecode provider name : javassist
+2017-10-25 23:34:47,431HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:34:47,767HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:34:48,501Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:34:49,538Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:34:42 CST 2017]; root of context hierarchy
+2017-10-25 23:34:49,704Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:34:49,708Mapped "{[/buyer/order/list]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:34:49,720Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:34:49,729Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:34:49,731Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:34:49,804Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:34:49,805Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:34:49,899Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:34:50,803Registering beans for JMX exposure on startup
+2017-10-25 23:34:50,833Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:34:50,862Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:34:50,883Using a shared selector for servlet write/read
+2017-10-25 23:34:50,914Tomcat started on port(s): 8080 (http)
+2017-10-25 23:34:50,921Started WxOrderApplication in 9.657 seconds (JVM running for 11.179)
+2017-10-25 23:34:57,639Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:34:57,643FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:34:57,723FrameworkServlet 'dispatcherServlet': initialization completed in 78 ms
+2017-10-25 23:34:58,078HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 23:36:07,984Starting WxSellApplication on AFAAW-705012348 with PID 10672 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:36:07,994No active profile set, falling back to default profiles: default
+2017-10-25 23:36:08,151Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:36:08 CST 2017]; root of context hierarchy
+2017-10-25 23:36:09,482HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:36:12,184Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:36:12,220Starting service [Tomcat]
+2017-10-25 23:36:12,224Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:36:12,471Initializing Spring embedded WebApplicationContext
+2017-10-25 23:36:12,472Root WebApplicationContext: initialization completed in 4321 ms
+2017-10-25 23:36:12,816Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:36:12,826Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:36:12,827Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:36:12,827Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:36:12,827Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:36:14,228Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:36:14,265HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:36:14,383HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:36:14,385HHH000206: hibernate.properties not found
+2017-10-25 23:36:14,392HHH000021: Bytecode provider name : javassist
+2017-10-25 23:36:14,494HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:36:14,800HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:36:15,564Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:36:16,755Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Wed Oct 25 23:36:08 CST 2017]; root of context hierarchy
+2017-10-25 23:36:16,913Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:36:16,915Mapped "{[/buyer/order/list]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:36:16,920Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:36:16,925Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:36:16,926Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:36:16,980Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:36:16,981Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:36:17,080Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:36:17,636Registering beans for JMX exposure on startup
+2017-10-25 23:36:17,692Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:36:17,717Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:36:17,741Using a shared selector for servlet write/read
+2017-10-25 23:36:17,771Tomcat started on port(s): 8080 (http)
+2017-10-25 23:36:17,781Started WxSellApplication in 11.46 seconds (JVM running for 12.511)
+2017-10-25 23:36:38,307Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:36:38,307FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:36:38,407FrameworkServlet 'dispatcherServlet': initialization completed in 99 ms
+2017-10-25 23:36:38,661HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 23:46:51,666Starting WxSellApplication on AFAAW-705012348 with PID 2572 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:46:51,671No active profile set, falling back to default profiles: default
+2017-10-25 23:46:51,837Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:46:51 CST 2017]; root of context hierarchy
+2017-10-25 23:46:52,630HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:46:55,036Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:46:55,057Starting service [Tomcat]
+2017-10-25 23:46:55,061Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:46:55,207Initializing Spring embedded WebApplicationContext
+2017-10-25 23:46:55,208Root WebApplicationContext: initialization completed in 3372 ms
+2017-10-25 23:46:55,481Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:46:55,489Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:46:55,491Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:46:55,493Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:46:55,495Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:46:56,347Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:46:56,365HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:46:56,484HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:46:56,488HHH000206: hibernate.properties not found
+2017-10-25 23:46:56,499HHH000021: Bytecode provider name : javassist
+2017-10-25 23:46:56,607HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:46:56,996HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:46:58,276Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:47:00,500Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:46:51 CST 2017]; root of context hierarchy
+2017-10-25 23:47:00,667Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:47:00,669Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:47:00,671Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-25 23:47:00,674Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:47:00,684Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:47:00,685Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:47:00,737Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:47:00,743Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:47:00,850Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:47:01,328Registering beans for JMX exposure on startup
+2017-10-25 23:47:01,359Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:47:01,384Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:47:01,408Using a shared selector for servlet write/read
+2017-10-25 23:47:01,448Tomcat started on port(s): 8080 (http)
+2017-10-25 23:47:01,467Started WxSellApplication in 11.237 seconds (JVM running for 12.482)
+2017-10-25 23:47:18,128Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:47:18,129FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:47:18,227FrameworkServlet 'dispatcherServlet': initialization completed in 98 ms
+2017-10-25 23:47:18,674HHH000397: Using ASTQueryTranslatorFactory
+2017-10-25 23:51:31,938Starting WxSellApplication on AFAAW-705012348 with PID 8272 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:51:31,992No active profile set, falling back to default profiles: default
+2017-10-25 23:51:32,355Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:51:32 CST 2017]; root of context hierarchy
+2017-10-25 23:51:33,077HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:51:37,292Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:51:37,316Starting service [Tomcat]
+2017-10-25 23:51:37,317Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:51:37,515Initializing Spring embedded WebApplicationContext
+2017-10-25 23:51:37,515Root WebApplicationContext: initialization completed in 5161 ms
+2017-10-25 23:51:37,795Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:51:37,799Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:51:37,800Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:51:37,800Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:51:37,800Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:51:39,041Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:51:39,066HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:51:39,161HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:51:39,166HHH000206: hibernate.properties not found
+2017-10-25 23:51:39,169HHH000021: Bytecode provider name : javassist
+2017-10-25 23:51:39,230HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:51:39,554HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:51:40,571Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:51:42,645Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:51:32 CST 2017]; root of context hierarchy
+2017-10-25 23:51:43,112Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:51:43,114Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:51:43,118Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-25 23:51:43,119Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-25 23:51:43,120Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:51:43,131Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:51:43,135Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:51:43,270Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:51:43,270Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:51:43,432Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:51:44,080Registering beans for JMX exposure on startup
+2017-10-25 23:51:44,119Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:51:44,161Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:51:44,207Using a shared selector for servlet write/read
+2017-10-25 23:51:44,285Tomcat started on port(s): 8080 (http)
+2017-10-25 23:51:44,305Started WxSellApplication in 13.968 seconds (JVM running for 15.936)
+2017-10-25 23:52:16,213Starting WxSellApplication on AFAAW-705012348 with PID 7584 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-25 23:52:16,219No active profile set, falling back to default profiles: default
+2017-10-25 23:52:16,438Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:52:16 CST 2017]; root of context hierarchy
+2017-10-25 23:52:17,937HV000001: Hibernate Validator 5.3.5.Final
+2017-10-25 23:52:22,263Tomcat initialized with port(s): 8080 (http)
+2017-10-25 23:52:22,299Starting service [Tomcat]
+2017-10-25 23:52:22,301Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-25 23:52:22,522Initializing Spring embedded WebApplicationContext
+2017-10-25 23:52:22,523Root WebApplicationContext: initialization completed in 6085 ms
+2017-10-25 23:52:22,888Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-25 23:52:22,899Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-25 23:52:22,902Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-25 23:52:22,906Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-25 23:52:22,907Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-25 23:52:24,032Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:52:24,087HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 23:52:24,240HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 23:52:24,242HHH000206: hibernate.properties not found
+2017-10-25 23:52:24,247HHH000021: Bytecode provider name : javassist
+2017-10-25 23:52:24,313HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 23:52:24,669HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 23:52:25,869Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 23:52:26,960Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Wed Oct 25 23:52:16 CST 2017]; root of context hierarchy
+2017-10-25 23:52:27,086Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-25 23:52:27,088Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-25 23:52:27,088Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-25 23:52:27,089Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-25 23:52:27,091Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-25 23:52:27,095Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 23:52:27,096Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 23:52:27,146Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:52:27,146Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:52:27,248Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 23:52:27,744Registering beans for JMX exposure on startup
+2017-10-25 23:52:27,777Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:52:27,796Starting ProtocolHandler ["http-nio-8080"]
+2017-10-25 23:52:27,831Using a shared selector for servlet write/read
+2017-10-25 23:52:27,866Tomcat started on port(s): 8080 (http)
+2017-10-25 23:52:27,872Started WxSellApplication in 13.581 seconds (JVM running for 14.977)
+2017-10-25 23:52:48,699Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-25 23:52:48,700FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-25 23:52:48,882FrameworkServlet 'dispatcherServlet': initialization completed in 182 ms
+2017-10-25 23:52:49,657HHH000397: Using ASTQueryTranslatorFactory

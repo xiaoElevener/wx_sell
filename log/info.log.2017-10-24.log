@@ -1,0 +1,576 @@
+Starting ProductInfoRepositoryTest on AFAAW-705012348 with PID 10108 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb: startup date [Tue Oct 24 10:55:37 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb: startup date [Tue Oct 24 10:55:37 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductInfoRepositoryTest in 13.928 seconds (JVM running for 18.292)
+SQL Error: 1054, SQLState: 42S22
+HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+Closing org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb: startup date [Tue Oct 24 10:55:37 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting ProductInfoRepositoryTest on AFAAW-705012348 with PID 6468 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb: startup date [Tue Oct 24 11:01:28 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb: startup date [Tue Oct 24 11:01:28 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductInfoRepositoryTest in 11.158 seconds (JVM running for 13.078)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb: startup date [Tue Oct 24 11:01:28 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting ProductInfoRepositoryTest on AFAAW-705012348 with PID 6300 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2d901eb0: startup date [Tue Oct 24 11:03:54 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2d901eb0: startup date [Tue Oct 24 11:03:54 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductInfoRepositoryTest in 11.232 seconds (JVM running for 14.369)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@2d901eb0: startup date [Tue Oct 24 11:03:54 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting ProductServiceImplTest on AFAAW-705012348 with PID 2864 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 11:32:23 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 11:32:23 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductServiceImplTest in 12.688 seconds (JVM running for 15.269)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 11:32:23 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting ProductServiceImplTest on AFAAW-705012348 with PID 1388 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 11:36:50 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 11:36:50 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductServiceImplTest in 8.856 seconds (JVM running for 11.399)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 11:36:50 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting ProductServiceImplTest on AFAAW-705012348 with PID 12240 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 12:22:48 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 12:22:48 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductServiceImplTest in 10.644 seconds (JVM running for 12.879)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 12:22:48 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting ProductServiceImplTest on AFAAW-705012348 with PID 11828 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 12:25:39 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 12:25:39 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductServiceImplTest in 12.685 seconds (JVM running for 15.453)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1c5920df: startup date [Tue Oct 24 12:25:39 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting ProductServiceImplTest on AFAAW-705012348 with PID 6708 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Tue Oct 24 12:34:12 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Tue Oct 24 12:34:12 CST 2017]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started ProductServiceImplTest in 7.715 seconds (JVM running for 10.444)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1349883: startup date [Tue Oct 24 12:34:12 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting WxOrderApplication on AFAAW-705012348 with PID 5928 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 12:50:23 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5262 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 12:50:23 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WxOrderApplication in 13.027 seconds (JVM running for 14.421)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 127 ms
+Starting WxOrderApplication on AFAAW-705012348 with PID 8316 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 12:53:03 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4107 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 12:53:03 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WxOrderApplication in 12.076 seconds (JVM running for 13.977)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 84 ms
+Starting WxOrderApplication on AFAAW-705012348 with PID 11356 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 13:05:11 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4453 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 13:05:11 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WxOrderApplication in 12.284 seconds (JVM running for 13.526)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 80 ms
+Starting WxOrderApplication on AFAAW-705012348 with PID 1512 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 13:12:08 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5296 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 13:12:08 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WxOrderApplication in 11.052 seconds (JVM running for 12.666)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 85 ms
+Starting WxOrderApplication on AFAAW-705012348 with PID 8232 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 13:36:24 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4549 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 13:36:24 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WxOrderApplication in 9.693 seconds (JVM running for 11.985)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 106 ms
+HHH000397: Using ASTQueryTranslatorFactory
+Starting WxOrderApplication on AFAAW-705012348 with PID 12332 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 14:14:57 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4286 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661972b0: startup date [Tue Oct 24 14:14:57 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started WxOrderApplication in 10.36 seconds (JVM running for 11.63)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 162 ms
+HHH000397: Using ASTQueryTranslatorFactory
+Starting OrderMasterRepositoryTest on AFAAW-705012348 with PID 668 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Tue Oct 24 15:02:03 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Tue Oct 24 15:02:03 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderMasterRepositoryTest in 14.195 seconds (JVM running for 17.193)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Tue Oct 24 15:02:03 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderMasterRepositoryTest on AFAAW-705012348 with PID 12836 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Tue Oct 24 15:03:08 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Tue Oct 24 15:03:08 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderMasterRepositoryTest in 12.132 seconds (JVM running for 14.554)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Tue Oct 24 15:03:08 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderMasterRepositoryTest on AFAAW-705012348 with PID 3724 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:12:25 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:12:25 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderMasterRepositoryTest in 7.492 seconds (JVM running for 10.161)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:12:25 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderDetailRepositoryTest on AFAAW-705012348 with PID 7856 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:29:23 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:29:23 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderDetailRepositoryTest in 11.583 seconds (JVM running for 14.198)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:29:23 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderDetailRepositoryTest on AFAAW-705012348 with PID 12796 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:31:00 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:31:00 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderDetailRepositoryTest in 9.975 seconds (JVM running for 13.569)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:31:00 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderDetailRepositoryTest on AFAAW-705012348 with PID 5016 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:33:21 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:33:21 CST 2017]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderDetailRepositoryTest in 10.671 seconds (JVM running for 13.723)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c: startup date [Tue Oct 24 15:33:21 CST 2017]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'

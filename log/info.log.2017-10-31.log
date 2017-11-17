@@ -1,0 +1,303 @@
+2017-10-31 13:25:37,907Starting WxSellApplication on AFAAW-705012348 with PID 17076 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-31 13:25:37,912No active profile set, falling back to default profiles: default
+2017-10-31 13:25:38,051Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145f66e3: startup date [Tue Oct 31 13:25:38 CST 2017]; root of context hierarchy
+2017-10-31 13:25:38,880HV000001: Hibernate Validator 5.3.5.Final
+2017-10-31 13:25:41,307JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-31 13:25:43,247Tomcat initialized with port(s): 8080 (http)
+2017-10-31 13:25:43,274Starting service [Tomcat]
+2017-10-31 13:25:43,276Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-31 13:25:43,517Initializing Spring embedded WebApplicationContext
+2017-10-31 13:25:43,518Root WebApplicationContext: initialization completed in 5467 ms
+2017-10-31 13:25:43,793Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-31 13:25:43,799Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-31 13:25:43,800Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-31 13:25:43,800Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-31 13:25:43,800Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-31 13:25:54,697Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-31 13:25:54,831HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-31 13:25:55,215HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-31 13:25:55,221HHH000206: hibernate.properties not found
+2017-10-31 13:25:55,228HHH000021: Bytecode provider name : javassist
+2017-10-31 13:25:55,722HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-31 13:25:56,425HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-31 13:25:58,348Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-31 13:26:00,782Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145f66e3: startup date [Tue Oct 31 13:25:38 CST 2017]; root of context hierarchy
+2017-10-31 13:26:01,051Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-31 13:26:01,053Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-31 13:26:01,053Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-31 13:26:01,057Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-31 13:26:01,059Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-31 13:26:01,061Mapped "{[/buyer/product/test],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.BuyerProductController.test()
+2017-10-31 13:26:01,063Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-31 13:26:01,070Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo()
+2017-10-31 13:26:01,073Mapped "{[/wechat/qrAuthorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.qrAuthorize(java.lang.String)
+2017-10-31 13:26:01,073Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize()
+2017-10-31 13:26:01,076Mapped "{[/wechat/qrUserInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.qrUserInfo(java.lang.String,java.lang.String)
+2017-10-31 13:26:01,082Mapped "{[/weixin/test],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WeixinController.test()
+2017-10-31 13:26:01,082Mapped "{[/weixin/auth],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-31 13:26:01,087Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-31 13:26:01,088Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-31 13:26:01,189Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 13:26:01,202Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 13:26:01,328Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 13:26:01,992ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-31 13:26:02,226Registering beans for JMX exposure on startup
+2017-10-31 13:26:02,256Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-31 13:26:02,276Starting ProtocolHandler ["http-nio-8080"]
+2017-10-31 13:26:02,294Using a shared selector for servlet write/read
+2017-10-31 13:26:02,327Tomcat started on port(s): 8080 (http)
+2017-10-31 13:26:02,333Started WxSellApplication in 25.815 seconds (JVM running for 28.241)
+2017-10-31 13:33:16,012Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-31 13:33:16,013FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-31 13:33:16,223FrameworkServlet 'dispatcherServlet': initialization completed in 209 ms
+2017-10-31 13:33:16,389【authorize】
+2017-10-31 13:33:16,531【userInfo】
+2017-10-31 16:03:08,440Starting PayServiceImplTest on AFAAW-705012348 with PID 16364 (started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-31 16:03:08,444No active profile set, falling back to default profiles: default
+2017-10-31 16:03:08,580Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4007f65e: startup date [Tue Oct 31 16:03:08 CST 2017]; root of context hierarchy
+2017-10-31 16:03:09,775HV000001: Hibernate Validator 5.3.5.Final
+2017-10-31 16:03:11,226JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-31 16:03:33,207Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$d0ccc749.CGLIB$jpaVendorAdapter$6(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$d0ccc749$$FastClassBySpringCGLIB$$305044a3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$d0ccc749.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 85 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2189)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 86 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 109 common frames omitted
+2017-10-31 16:06:46,438Starting WxSellApplication on AFAAW-705012348 with PID 12436 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-31 16:06:46,443No active profile set, falling back to default profiles: default
+2017-10-31 16:06:46,590Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145f66e3: startup date [Tue Oct 31 16:06:46 CST 2017]; root of context hierarchy
+2017-10-31 16:06:47,597HV000001: Hibernate Validator 5.3.5.Final
+2017-10-31 16:06:49,181JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-31 16:06:50,203Tomcat initialized with port(s): 8080 (http)
+2017-10-31 16:06:50,226Starting service [Tomcat]
+2017-10-31 16:06:50,227Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-31 16:06:50,419Initializing Spring embedded WebApplicationContext
+2017-10-31 16:06:50,419Root WebApplicationContext: initialization completed in 3829 ms
+2017-10-31 16:06:50,703Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-31 16:06:50,713Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-31 16:06:50,716Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-31 16:06:50,718Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-31 16:06:50,719Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-31 16:06:52,018Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-31 16:06:52,077HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-31 16:06:52,361HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-31 16:06:52,368HHH000206: hibernate.properties not found
+2017-10-31 16:06:52,376HHH000021: Bytecode provider name : javassist
+2017-10-31 16:06:52,892HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-31 16:06:53,317HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-31 16:06:54,930Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-31 16:06:57,647Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145f66e3: startup date [Tue Oct 31 16:06:46 CST 2017]; root of context hierarchy
+2017-10-31 16:06:57,782Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-31 16:06:57,783Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-31 16:06:57,784Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-31 16:06:57,785Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-31 16:06:57,790Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-31 16:06:57,792Mapped "{[/buyer/product/test],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.BuyerProductController.test()
+2017-10-31 16:06:57,795Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.notify(java.lang.String)
+2017-10-31 16:06:57,795Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-31 16:06:57,798Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-31 16:06:57,801Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-31 16:06:57,806Mapped "{[/weixin/test],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WeixinController.test()
+2017-10-31 16:06:57,809Mapped "{[/weixin/auth],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-31 16:06:57,814Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-31 16:06:57,815Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-31 16:06:57,873Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 16:06:57,873Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 16:06:57,926Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 16:06:58,295ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-31 16:06:58,473Registering beans for JMX exposure on startup
+2017-10-31 16:06:58,506Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-31 16:06:58,526Starting ProtocolHandler ["http-nio-8080"]
+2017-10-31 16:06:58,546Using a shared selector for servlet write/read
+2017-10-31 16:06:58,577Tomcat started on port(s): 8080 (http)
+2017-10-31 16:06:58,587Started WxSellApplication in 13.668 seconds (JVM running for 15.417)
+2017-10-31 16:23:39,689Starting WxSellApplication on AFAAW-705012348 with PID 152 (G:\eclipse_enviroment\wx_sell\target\classes started by Administrator in G:\eclipse_enviroment\wx_sell)
+2017-10-31 16:23:39,697No active profile set, falling back to default profiles: default
+2017-10-31 16:23:39,825Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145f66e3: startup date [Tue Oct 31 16:23:39 CST 2017]; root of context hierarchy
+2017-10-31 16:23:40,730HV000001: Hibernate Validator 5.3.5.Final
+2017-10-31 16:23:42,584JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-31 16:23:44,128Tomcat initialized with port(s): 8080 (http)
+2017-10-31 16:23:44,173Starting service [Tomcat]
+2017-10-31 16:23:44,175Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-31 16:23:44,430Initializing Spring embedded WebApplicationContext
+2017-10-31 16:23:44,466Root WebApplicationContext: initialization completed in 4641 ms
+2017-10-31 16:23:44,884Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-31 16:23:44,894Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-31 16:23:44,895Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-31 16:23:44,895Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-31 16:23:44,895Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-31 16:23:46,004Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-31 16:23:46,019HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-31 16:23:46,084HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-31 16:23:46,091HHH000206: hibernate.properties not found
+2017-10-31 16:23:46,100HHH000021: Bytecode provider name : javassist
+2017-10-31 16:23:46,917HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-31 16:23:47,778HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-31 16:23:49,249Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-31 16:23:51,009Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145f66e3: startup date [Tue Oct 31 16:23:39 CST 2017]; root of context hierarchy
+2017-10-31 16:23:51,152Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.xiao.wx_order.controller.BuyerOrderController.create(com.xiao.wx_order.form.OrderForm,org.springframework.validation.BindingResult)
+2017-10-31 16:23:51,153Mapped "{[/buyer/order/list],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO<java.util.List<com.xiao.wx_order.dto.OrderDTO>> com.xiao.wx_order.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-10-31 16:23:51,157Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-10-31 16:23:51,157Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO<com.xiao.wx_order.dto.OrderDTO> com.xiao.wx_order.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-10-31 16:23:51,162Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.xiao.wx_order.VO.ResultVO com.xiao.wx_order.controller.BuyerProductController.list()
+2017-10-31 16:23:51,162Mapped "{[/buyer/product/test],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.BuyerProductController.test()
+2017-10-31 16:23:51,164Mapped "{[/pay/notify],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.notify(java.lang.String)
+2017-10-31 16:23:51,164Mapped "{[/pay/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xiao.wx_order.controller.PayController.create(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-10-31 16:23:51,168Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.userInfo(java.lang.String,java.lang.String)
+2017-10-31 16:23:51,169Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WechatController.authorize(java.lang.String)
+2017-10-31 16:23:51,173Mapped "{[/weixin/test],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WeixinController.test()
+2017-10-31 16:23:51,174Mapped "{[/weixin/auth],methods=[GET]}" onto public java.lang.String com.xiao.wx_order.controller.WeixinController.auth(java.lang.String)
+2017-10-31 16:23:51,178Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-31 16:23:51,188Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-31 16:23:51,225Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 16:23:51,226Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 16:23:51,282Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-31 16:23:51,742ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-10-31 16:23:51,941Registering beans for JMX exposure on startup
+2017-10-31 16:23:51,981Initializing ProtocolHandler ["http-nio-8080"]
+2017-10-31 16:23:52,002Starting ProtocolHandler ["http-nio-8080"]
+2017-10-31 16:23:52,022Using a shared selector for servlet write/read
+2017-10-31 16:23:52,051Tomcat started on port(s): 8080 (http)
+2017-10-31 16:23:52,057Started WxSellApplication in 13.468 seconds (JVM running for 14.796)
