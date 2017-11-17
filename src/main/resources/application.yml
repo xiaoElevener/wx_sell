@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.195.132:3306/wx_sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null #//json空值不返回前端
+  redis:
+    host: 192.168.195.132
+    port: 6379
+
+#server:
+#  context-path: /sell
+
+wechat:
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret: 29d8a650db31472aa87800e3b0d739f2
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+  keyPath: G:\eclipse_enviroment\wx_sell\src\main\resources\static\cert\h5.p12
+  notifyUrl: http://xiao-wxsell.natapp1.cc/pay/notify
+  templateId: 
+    orderStatus: e-Cqq67QxD6YNI41liRiqawEYdFavW_7pc7LyEMb-yeQ
+
+#   微信号
+#   mpAppId: wxaf836b36c8321757
+#   mpAppSecret: cea474b21ba351f998e2bf937b06ac86
+
+#  测试号
+#  mpAppId: wxa5da69153bc4b178  
+#  mpAppSecret: f9355ca6fdddd846a969bc4382655122
+
+projectUrl:
+  wechatMpAuthorize: http://xiao-wxsell.natapp1.cc
+  wechatOpenAuthorize: http://xiao-wxsell.natapp1.cc
+  sell: http://xiao-wxsell.natapp1.cc
+
+ 
+
